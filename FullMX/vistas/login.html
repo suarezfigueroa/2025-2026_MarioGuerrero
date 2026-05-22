@@ -1,0 +1,37 @@
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Vista de inicio de sesión.
+  Permite entrar como cliente, empleado o jefe según el email.
+  El formulario no recarga la página; sesión.js lo envía al PHP.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="login-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Acceso privado</span>
+            <h1 id="login-title" class="section-title">Iniciar sesión</h1>
+            <p class="section-subtitle">Clientes, empleados y jefe acceden desde el mismo formulario.</p>
+        </div>
+    </div>
+
+    <!-- Formulario de esta vista: JavaScript recoge sus datos y llama al PHP correspondiente. -->
+
+    <form id="formLogin" class="form-card" autocomplete="on">
+        <div class="form-grid">
+            <div class="form-field full">
+                <label for="loginEmail">Email</label>
+                <input id="loginEmail" type="email" name="email" required>
+            </div>
+            <div class="form-field full">
+                <label for="loginPassword">Contraseña</label>
+                <input id="loginPassword" type="password" name="password" required>
+            </div>
+        </div>
+        <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Entrar</button>
+            <a class="btn btn-secondary" href="#registro">Crear cuenta cliente</a>
+        </div>
+        <p id="msgLogin" class="message" role="status"></p>
+    </form>
+</section>

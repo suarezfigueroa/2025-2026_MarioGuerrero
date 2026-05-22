@@ -1,0 +1,122 @@
+
+<!--
+  EXPLICACIÓN GENERAL DEL INDEX.HTML
+  Este archivo es la plantilla principal de toda la web FullMX.
+  No contiene una página completa por cada sección: funciona como base común.
+  La cabecera, el buscador, el botón de sesión, el carrito, el footer y el template de producto viven aquí.
+  El contenido central se introduce dinámicamente dentro de <main id="app"> mediante JavaScript.
+  Los enlaces usan rutas con almohadilla, por ejemplo #categoria/cascos, para no recargar la página completa.
+  Los scripts del final cargan primero utilidades, después carrito/sesión/catálogo y por último app.js como controlador principal.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FullMX, tienda online de equipación y accesorios de motocross.">
+    <title>FullMX | Motocross Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Enlace de accesibilidad: permite saltar directamente al contenido principal con teclado. -->
+    <a class="skip-link" href="#app">Saltar al contenido principal</a>
+
+    <!-- Cabecera fija: logo, menú de categorías, buscador, sesión y carrito. -->
+    <!-- Cabecera visible en toda la web: logo, menú, buscador y botones principales. -->
+<header class="site-header" aria-label="Cabecera principal">
+        <div class="header-top">
+            <a class="brand" href="#inicio" aria-label="Ir al inicio de FullMX">
+                <img src="logos/fullmx-logo.png" alt="FullMX" class="brand-logo">
+            </a>
+
+            <nav class="main-nav" aria-label="Categorías principales">
+                <a href="#inicio">Inicio</a>
+                <a href="#categoria/cascos">Cascos</a>
+                <a href="#categoria/botas">Botas</a>
+                <a href="#categoria/ropa">Ropa</a>
+                <a href="#categoria/protecciones">Protecciones</a>
+                <a href="#categoria/accesorios">Accesorios</a>
+            </nav>
+
+            <!-- Formulario de esta vista: JavaScript recoge sus datos y llama al PHP correspondiente. -->
+
+            <form id="formBuscador" class="search-form" role="search" aria-label="Buscar productos">
+                <input id="inputBuscador" type="search" placeholder="Buscar productos..." aria-label="Buscar productos">
+                <button type="submit" aria-label="Buscar">🔎</button>
+            </form>
+
+            <div class="header-actions" aria-label="Acciones de usuario">
+                <button id="btnSesion" class="round-action" type="button" aria-label="Abrir mi sesión">
+                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5Z"/></svg>
+                </button>
+                <button id="btnCarrito" class="round-action cart-action" type="button" aria-label="Abrir carrito">
+                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 .01 0H17ZM6.2 6l.75 4.2A4 4 0 0 0 10.88 14h5.72a4 4 0 0 0 3.82-2.82L22 6H6.2ZM2 3v2h2.2l2 11.15A2.2 2.2 0 0 0 8.35 18H20v-2H8.35L8 14h8.6a6 6 0 0 0 5.73-4.25L24 4H5.82L5.5 3H2Z"/></svg>
+                    <span id="contadorCarrito" class="cart-counter">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenedor principal SPA: aquí se cargan las vistas HTML sin recargar toda la página. -->
+    <main id="app" class="app" tabindex="-1"></main>
+
+    <!--
+      Botones comunes antes del footer.
+      Aparecen en todas las páginas porque están fuera de las vistas dinámicas.
+      El botón Contacto abre un pop up desde JavaScript.
+      El botón Política de privacidad navega a una vista HTML informativa.
+    -->
+    <section class="footer-extra-actions" aria-label="Información y contacto">
+        <button id="btnContacto" class="btn btn-primary footer-extra-button" type="button">Contacto</button>
+        <a class="btn btn-secondary footer-extra-button" href="#politicaPrivacidad">Política de privacidad</a>
+    </section>
+
+    <!--
+      Pop up de contacto.
+      Permanece oculto hasta que JavaScript añade la clase is-visible.
+      El usuario puede cerrarlo con la X roja.
+    -->
+    <div id="popupContacto" class="modal-overlay" aria-hidden="true">
+        <div class="modal-card modal-small" role="dialog" aria-modal="true" aria-labelledby="contacto-title">
+            <button id="cerrarContacto" class="modal-close" type="button" aria-label="Cerrar contacto">×</button>
+            <h2 id="contacto-title">Ponte en contacto con nosotros</h2>
+            <p><strong>Teléfono:</strong> 924 000 000</p>
+            <p><strong>Email:</strong> contacto@fullmx.com</p>
+        </div>
+    </div>
+
+    <!-- Footer común visible en toda la web. -->
+    <footer class="site-footer">
+        <img src="logos/fullmx-logo.png" alt="FullMX" class="footer-logo">
+        <p>© 2026 FullMX · Tienda de motocross</p>
+    </footer>
+
+    <!-- Template reutilizable de producto: catalogo.js lo clona para pintar categorías y búsquedas. -->
+    <template id="templateProducto">
+        <article class="product-row">
+            <img class="product-image" src="" alt="">
+            <div class="product-info">
+                <p class="product-category"></p>
+                <h3></h3>
+                <p class="product-id"></p>
+                <p class="product-description"></p>
+            </div>
+            <div class="product-buy-box">
+                <strong class="product-price"></strong>
+                <label>
+                    <span>Talla</span>
+                    <select class="product-size" aria-label="Seleccionar talla"></select>
+                </label>
+                <button class="btn btn-primary btn-add" type="button">Añadir al carrito</button>
+            </div>
+        </article>
+    </template>
+
+    <!-- Scripts: el orden importa porque app.js usa funciones declaradas en los archivos anteriores. -->
+    <script src="js/peticiones.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/sesion.js"></script>
+    <script src="js/catalogo.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

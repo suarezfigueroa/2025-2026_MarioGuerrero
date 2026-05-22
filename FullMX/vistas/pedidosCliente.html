@@ -1,0 +1,19 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Vista privada del cliente para ver sus pedidos.
+  El contenedor pedidosCliente se rellena desde pedidos.php con los pedidos de la sesión.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="pedidos-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Historial</span>
+            <h1 id="pedidos-title" class="section-title">Mis pedidos</h1>
+            <p class="section-subtitle">Pedidos realizados con tu cuenta de cliente.</p>
+        </div>
+    </div>
+    <!-- Contenedor con id: JavaScript lo usa para pintar datos dinámicos o mensajes. -->
+    <div id="pedidosCliente" class="grid"></div>
+</section>

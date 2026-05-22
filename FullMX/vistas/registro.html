@@ -1,0 +1,34 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Registro público de clientes.
+  Bloquea emails corporativos desde PHP para que nadie se registre como empleado o jefe desde aquí.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="registro-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Alta de cliente</span>
+            <h1 id="registro-title" class="section-title">Registro</h1>
+            <p class="section-subtitle">Los emails corporativos quedan reservados para empleados y jefe.</p>
+        </div>
+    </div>
+
+    <!-- Formulario de esta vista: JavaScript recoge sus datos y llama al PHP correspondiente. -->
+
+    <form id="formRegistro" class="form-card" autocomplete="on">
+        <div class="form-grid">
+            <div class="form-field"><label>Nombre completo</label><input name="nombre" required></div>
+            <div class="form-field"><label>DNI</label><input name="dni" maxlength="9" required></div>
+            <div class="form-field"><label>Email</label><input type="email" name="email" required></div>
+            <div class="form-field"><label>Teléfono</label><input type="number" name="telefono" required></div>
+            <div class="form-field"><label>Ciudad</label><input name="ciudad" required></div>
+            <div class="form-field"><label>Código postal</label><input type="number" name="codigo_postal" required></div>
+            <div class="form-field full"><label>Dirección</label><input name="direccion" required></div>
+            <div class="form-field full"><label>Contraseña</label><input type="password" name="password" required></div>
+        </div>
+        <div class="form-actions"><button class="btn btn-primary" type="submit">Crear cuenta</button></div>
+        <p id="msgRegistro" class="message" role="status"></p>
+    </form>
+</section>

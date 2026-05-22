@@ -1,0 +1,19 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Vista privada del cliente.
+  El contenido datosCliente se rellena con los datos reales de la sesión activa.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="datos-cliente-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Perfil</span>
+            <h1 id="datos-cliente-title" class="section-title">Mis datos</h1>
+            <p class="section-subtitle">Información guardada en la sesión actual.</p>
+        </div>
+    </div>
+    <!-- Contenedor con id: JavaScript lo usa para pintar datos dinámicos o mensajes. -->
+    <div id="datosUsuario" class="panel data-list"></div>
+</section>

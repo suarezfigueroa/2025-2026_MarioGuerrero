@@ -1,0 +1,28 @@
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Panel principal del jefe.
+  Incluye todas las acciones del empleado y además crear/borrar empleados y registrar clientes.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="jefe-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Administración</span>
+            <h1 id="jefe-title" class="section-title">Zona jefe</h1>
+            <p class="section-subtitle">Control total de empleados, clientes, productos y pedidos.</p>
+        </div>
+    </div>
+
+    <div class="session-menu">
+        <a class="session-card" href="#buscarPedido"><strong>Buscar pedido</strong><span class="muted">Localiza pedidos de clientes.</span></a>
+        <a class="session-card" href="#datosEmpleado"><strong>Mostrar jefe</strong><span class="muted">Datos de la cuenta administradora.</span></a>
+        <a class="session-card" href="#subirProducto"><strong>Subir producto</strong><span class="muted">Alta de productos en catálogo.</span></a>
+        <a class="session-card" href="#crearEmpleado"><strong>Crear empleado</strong><span class="muted">Alta de usuario @fullmx.es.</span></a>
+        <a class="session-card" href="#borrarEmpleado"><strong>Borrar empleado</strong><span class="muted">Buscar por ID o DNI y eliminar.</span></a>
+        <a class="session-card" href="#registroClienteJefe"><strong>Registrar cliente</strong><span class="muted">Alta manual de clientes.</span></a>
+        <a class="session-card" href="#actualizarProducto"><strong>Actualizar producto</strong><span class="muted">Buscar por ID y modificar el stock de cada talla.</span></a>
+        <a class="session-card" href="#borrarProducto"><strong>Borrar producto</strong><span class="muted">Buscar por ID, revisar sus datos y eliminarlo.</span></a>
+        <button class="session-card" data-logout type="button"><strong>Cerrar sesión</strong><span class="muted">Salir del panel jefe.</span></button>
+    </div>
+</section>

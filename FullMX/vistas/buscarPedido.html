@@ -1,0 +1,34 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Vista privada para empleados y jefe.
+  Permite buscar pedidos por ID, DNI o nombre de cliente.
+  El contenedor resultadoPedidos se rellena desde JavaScript.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="buscar-pedido-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Gestión de pedidos</span>
+            <h1 id="buscar-pedido-title" class="section-title">Buscar pedido</h1>
+            <p class="section-subtitle">Busca por nombre del cliente, DNI o ID del pedido.</p>
+        </div>
+    </div>
+
+    <!-- Formulario de esta vista: JavaScript recoge sus datos y llama al PHP correspondiente. -->
+
+    <form id="formBuscarPedido" class="form-card">
+        <div class="form-grid">
+            <div class="form-field full">
+                <label for="buscarPedidoInput">Dato de búsqueda</label>
+                <input id="buscarPedidoInput" name="busqueda" placeholder="Ejemplo: 1, 12345678A o Mario" required>
+            </div>
+        </div>
+        <div class="form-actions"><button class="btn btn-primary" type="submit">Buscar</button></div>
+    </form>
+
+    <!-- Contenedor con id: JavaScript lo usa para pintar datos dinámicos o mensajes. -->
+
+    <div id="resultadoPedidos" class="grid section"></div>
+</section>

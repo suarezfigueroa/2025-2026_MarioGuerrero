@@ -1,0 +1,26 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Panel principal del empleado.
+  Muestra accesos a buscar pedidos, ver datos y subir productos.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="empleado-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Panel interno</span>
+            <h1 id="empleado-title" class="section-title">Zona empleado</h1>
+            <p class="section-subtitle">Gestiona productos y consulta pedidos de clientes.</p>
+        </div>
+    </div>
+
+    <div class="session-menu">
+        <a class="session-card" href="#buscarPedido"><strong>Buscar pedido</strong><span class="muted">Por ID, DNI o nombre del cliente.</span></a>
+        <a class="session-card" href="#datosEmpleado"><strong>Mostrar empleado</strong><span class="muted">Datos de tu sesión actual.</span></a>
+        <a class="session-card" href="#subirProducto"><strong>Subir producto</strong><span class="muted">Añadir nuevo stock al catálogo.</span></a>
+        <a class="session-card" href="#actualizarProducto"><strong>Actualizar producto</strong><span class="muted">Buscar por ID y modificar el stock de cada talla.</span></a>
+        <a class="session-card" href="#borrarProducto"><strong>Borrar producto</strong><span class="muted">Buscar por ID, revisar sus datos y eliminarlo.</span></a>
+        <button class="session-card" data-logout type="button"><strong>Cerrar sesión</strong><span class="muted">Salir del panel interno.</span></button>
+    </div>
+</section>

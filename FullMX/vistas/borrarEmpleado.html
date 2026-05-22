@@ -1,0 +1,33 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Vista privada del jefe para buscar un empleado por ID o DNI y eliminarlo.
+  El formulario solo lanza la búsqueda; JavaScript rellena el resultado y añade la acción de borrar.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="borrar-empleado-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Administración</span>
+            <h1 id="borrar-empleado-title" class="section-title">Borrar empleado</h1>
+            <p class="section-subtitle">Introduce el ID o DNI para mostrar sus datos antes de borrar.</p>
+        </div>
+    </div>
+
+    <!-- Formulario de esta vista: JavaScript recoge sus datos y llama al PHP correspondiente. -->
+
+    <form id="formBuscarEmpleado" class="form-card">
+        <div class="form-grid">
+            <div class="form-field full">
+                <label for="buscarEmpleadoInput">ID o DNI</label>
+                <input id="buscarEmpleadoInput" name="busqueda" required>
+            </div>
+        </div>
+        <div class="form-actions"><button class="btn btn-primary" type="submit">Buscar empleado</button></div>
+    </form>
+
+    <!-- Contenedor con id: JavaScript lo usa para pintar datos dinámicos o mensajes. -->
+
+    <div id="resultadoEmpleado" class="section"></div>
+</section>

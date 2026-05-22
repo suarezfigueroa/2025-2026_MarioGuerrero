@@ -1,0 +1,56 @@
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Vista para empleado o jefe.
+  Permite crear proveedores y subir productos con imagen, proveedor, categoría y stock por talla.
+  Los selectores de proveedor y los envíos se gestionan desde catalogo.js.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="producto-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Catálogo</span>
+            <h1 id="producto-title" class="section-title">Subir producto</h1>
+            <p class="section-subtitle">Añade productos con proveedor, imagen y stock por talla.</p>
+        </div>
+    </div>
+
+    <!-- Formulario de esta vista: JavaScript recoge sus datos y llama al PHP correspondiente. -->
+
+    <form id="formProveedor" class="form-card compact-card" autocomplete="off">
+        <h2>Crear proveedor</h2>
+        <p class="muted">Crea primero el proveedor si todavía no existe.</p>
+        <div class="form-grid">
+            <div class="form-field"><label>Empresa</label><input name="nombre_empresa" required></div>
+            <div class="form-field"><label>Contacto</label><input name="nombre_contacto" required></div>
+            <div class="form-field"><label>Teléfono</label><input type="number" name="telefono"></div>
+            <div class="form-field"><label>Email</label><input type="email" name="email"></div>
+        </div>
+        <div class="form-actions"><button class="btn btn-secondary" type="submit">Guardar proveedor</button></div>
+        <p id="msgProveedor" class="message" role="status"></p>
+    </form>
+
+    <form id="formProducto" class="form-card" enctype="multipart/form-data">
+        <div class="form-grid">
+            <div class="form-field"><label>Nombre</label><input name="nombre" required></div>
+            <div class="form-field"><label>Marca</label><input name="marca" required></div>
+            <div class="form-field"><label>Proveedor</label><select id="selectProveedor" name="id_proveedor" required></select></div>
+            <div class="form-field"><label>Categoría</label><select name="categoria" required><option value="cascos">Cascos</option><option value="botas">Botas</option><option value="ropa">Ropa</option><option value="protecciones">Protecciones</option><option value="accesorios">Accesorios</option></select></div>
+            <div class="form-field"><label>Precio</label><input type="number" step="0.01" min="0" name="precio" required></div>
+            <div class="form-field"><label>Imagen</label><input type="file" name="imagen" accept="image/*"></div>
+            <div class="form-field full"><label>Descripción</label><textarea name="descripcion" placeholder="Describe el producto"></textarea></div>
+        </div>
+
+        <div class="sizes-stock-grid" aria-label="Stock por talla">
+            <label><span>XS</span><input type="number" min="0" value="0" name="tallas[xs]"></label>
+            <label><span>S</span><input type="number" min="0" value="0" name="tallas[s]"></label>
+            <label><span>M</span><input type="number" min="0" value="0" name="tallas[m]"></label>
+            <label><span>L</span><input type="number" min="0" value="0" name="tallas[l]"></label>
+            <label><span>XL</span><input type="number" min="0" value="0" name="tallas[xl]"></label>
+            <label><span>2XL</span><input type="number" min="0" value="0" name="tallas[2xl]"></label>
+        </div>
+
+        <div class="form-actions"><button class="btn btn-primary" type="submit">Subir producto</button></div>
+        <p id="msgProducto" class="message" role="status"></p>
+    </form>
+</section>

@@ -1,0 +1,23 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Panel principal del cliente.
+  Muestra accesos a mi cuenta, mis pedidos y cerrar sesión.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="cliente-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Área privada</span>
+            <h1 id="cliente-title" class="section-title">Zona cliente</h1>
+            <p class="section-subtitle">Consulta tu cuenta, revisa tus pedidos o continúa comprando.</p>
+        </div>
+    </div>
+
+    <div class="session-menu">
+        <a class="session-card" href="#datosCliente"><strong>Mi cuenta</strong><span class="muted">Datos personales del cliente.</span></a>
+        <a class="session-card" href="#pedidosCliente"><strong>Mis pedidos</strong><span class="muted">Historial de compras realizadas.</span></a>
+        <button class="session-card" data-logout type="button"><strong>Cerrar sesión</strong><span class="muted">Salir de la zona privada.</span></button>
+    </div>
+</section>

@@ -1,0 +1,36 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Pantalla interna para empleado y jefe.
+  Permite introducir el ID de un producto, cargar sus datos y modificar el stock de cada talla.
+  El formulario no cambia el producto completo: solo actualiza las unidades disponibles por talla.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="actualizar-producto-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Gestión de stock</span>
+            <h1 id="actualizar-producto-title" class="section-title">Actualizar producto</h1>
+            <p class="section-subtitle">Introduce el ID del producto y ajusta las unidades disponibles de cada talla.</p>
+        </div>
+    </div>
+
+    <article class="panel stock-panel">
+        <!-- Formulario de esta vista: JavaScript recoge sus datos y llama al PHP correspondiente. -->
+        <form id="formBuscarProductoStock" class="form-grid">
+            <label class="full">
+                <span>ID del producto</span>
+                <input type="number" name="id_producto" min="1" placeholder="Ejemplo: 3" required>
+            </label>
+
+            <button class="btn btn-primary" type="submit">Buscar producto</button>
+        </form>
+
+        <p id="msgActualizarProducto" class="form-message" aria-live="polite"></p>
+    </article>
+
+    <!-- Contenedor con id: JavaScript lo usa para pintar datos dinámicos o mensajes. -->
+
+    <div id="resultadoActualizarProducto" class="stock-result"></div>
+</section>

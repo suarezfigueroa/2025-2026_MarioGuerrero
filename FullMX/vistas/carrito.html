@@ -1,0 +1,32 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Vista del carrito de compra.
+  El div carritoContenido se rellena con los productos guardados en localStorage.
+  Los botones de vaciar y comprar se conectan desde app.js.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="carrito-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Compra segura</span>
+            <h1 id="carrito-title" class="section-title">Carrito</h1>
+            <p class="section-subtitle">Para finalizar la compra debes haber iniciado sesión como cliente.</p>
+        </div>
+    </div>
+
+    <div class="cart-layout">
+        <!-- Contenedor con id: JavaScript lo usa para pintar datos dinámicos o mensajes. -->
+        <div id="listaCarrito"></div>
+        <aside class="panel cart-summary" aria-label="Resumen del carrito">
+            <p class="muted">Total del pedido</p>
+            <p id="totalCarrito" class="total">0,00 €</p>
+            <div class="actions-row">
+                <button id="btnComprar" class="btn btn-primary" type="button">Comprar</button>
+                <button id="btnVaciarCarrito" class="btn btn-secondary" type="button">Vaciar</button>
+            </div>
+            <p id="msgCarrito" class="message" role="status"></p>
+        </aside>
+    </div>
+</section>

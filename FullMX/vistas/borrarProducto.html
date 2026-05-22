@@ -1,0 +1,35 @@
+<!--
+=====================================================================
+EXPLICACIÓN DEL ARCHIVO: borrarProducto.html
+=====================================================================
+Vista privada para empleado y jefe.
+Permite introducir el ID de un producto, buscarlo para revisar sus datos
+y borrarlo definitivamente si el usuario confirma la acción.
+=====================================================================
+-->
+
+<section class="section" aria-labelledby="borrar-producto-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Gestión de catálogo</span>
+            <h1 id="borrar-producto-title" class="section-title">Borrar producto</h1>
+            <p class="section-subtitle">Introduce el ID del producto para comprobar sus datos antes de eliminarlo.</p>
+        </div>
+    </div>
+
+    <form id="formBuscarProductoBorrar" class="form-card">
+        <label>
+            <span>ID del producto</span>
+            <input type="number" name="id_producto" min="1" placeholder="Ejemplo: 12" required>
+        </label>
+
+        <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Buscar</button>
+            <button id="btnBorrarProducto" class="btn btn-secondary" type="button" disabled>Borrar</button>
+        </div>
+
+        <p id="msgBorrarProducto" class="message" aria-live="polite"></p>
+    </form>
+
+    <div id="resultadoBorrarProducto" class="stock-result"></div>
+</section>

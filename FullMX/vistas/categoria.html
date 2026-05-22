@@ -1,0 +1,25 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Vista reutilizada para cascos, botas, ropa, protecciones, accesorios y resultados de búsqueda.
+  El título y subtítulo cambian con JavaScript según la ruta.
+  productosGrid recibe las tarjetas de producto creadas desde el templateProducto del index.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="tituloCategoria">
+    <div class="category-hero">
+        <div class="section-head">
+            <div>
+                <span class="eyebrow">Catálogo FullMX</span>
+                <h1 id="tituloCategoria" class="section-title">Productos</h1>
+                <p id="subtituloCategoria" class="section-subtitle"></p>
+            </div>
+            <a class="btn btn-secondary" href="#carrito">Ver carrito</a>
+        </div>
+    </div>
+
+    <!-- Contenedor con id: JavaScript lo usa para pintar datos dinámicos o mensajes. -->
+
+    <div id="productosGrid" class="product-list"></div>
+</section>

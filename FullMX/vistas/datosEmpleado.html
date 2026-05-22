@@ -1,0 +1,19 @@
+
+
+<!--
+  EXPLICACIÓN DE ESTA VISTA
+  Vista privada para empleado o jefe.
+  El contenido datosEmpleado se rellena con los datos de la sesión actual.
+-->
+<!-- Sección principal de la vista: agrupa título, contenido y zona dinámica. -->
+<section class="section" aria-labelledby="datos-empleado-title">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">Perfil interno</span>
+            <h1 id="datos-empleado-title" class="section-title">Datos de sesión</h1>
+            <p class="section-subtitle">Información del empleado o jefe conectado.</p>
+        </div>
+    </div>
+    <!-- Contenedor con id: JavaScript lo usa para pintar datos dinámicos o mensajes. -->
+    <div id="datosUsuario" class="panel data-list"></div>
+</section>
