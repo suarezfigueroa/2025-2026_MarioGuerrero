@@ -15,11 +15,11 @@
 ##### Autor del proyecto :  
 Mario Guerrero Salinero
 ##### Tutor del proyecto :
-[NOMBRE DEL TUTOR]
+Jose Andrés Paredes Arribas
 ##### Fecha de presentación  
 Junio 2026
 ##### Repositorio GitHub :  
-https://github.com/usuario/fullmx
+https://github.com/suarezfigueroa/2025-2026_MarioGuerrero/tree/main/FullMX
 
 </div>
 
