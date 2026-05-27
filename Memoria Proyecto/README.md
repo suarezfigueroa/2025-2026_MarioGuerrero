@@ -30,1026 +30,351 @@ https://github.com/suarezfigueroa/2025-2026_MarioGuerrero/tree/main/FullMX
 
 # 2. Índice
 
-1. [Portada](#1-portada)
+## 1. [Portada](#1-portada)
 
-2. [Índice](#2-índice)
+## 2. [Índice](#2-índice)
 
-3. [Introducción](#3-introducción)
+## 3. [Introducción](#3-introducción)
 
-   3.1 [Descripción general del proyecto](#3-introducción)
-
----
-
-4. [Objetivos del proyecto](#4-objetivos-del-proyecto)
-
-   4.1 [Objetivo principal](#41-objetivo-principal)
-
-   4.2 [Objetivos técnicos](#42-objetivos-técnicos)
-
-   4.3 [Objetivos funcionales](#43-objetivos-funcionales)
-
-   4.4 [Objetivos visuales y experiencia de usuario](#44-objetivos-visuales-y-experiencia-de-usuario)
-
-   4.5 [Objetivos de organización y mantenimiento](#45-objetivos-de-organización-y-mantenimiento)
-
-   4.6 [Objetivos académicos](#46-objetivos-académicos)
-
-   4.7 [Resultado esperado](#47-resultado-esperado)
+- 3.1 [Contexto del proyecto](#31-contexto-del-proyecto)
+- 3.2 [Finalidad de la aplicación](#32-finalidad-de-la-aplicación)
+- 3.3 [Descripción general del sistema](#33-descripción-general-del-sistema)
 
 ---
 
-5. [Justificación del proyecto](#5-justificación-del-proyecto)
+## 4. [Objetivos del proyecto](#4-objetivos-del-proyecto)
 
-   5.1 [Análisis de mercado](#51-análisis-de-mercado)
-
-   5.2 [Necesidad detectada](#52-necesidad-detectada)
-
-   5.3 [Vinculación con los contenidos vistos en el Ciclo Formativo](#53-vinculación-con-los-contenidos-vistos-en-el-ciclo-formativo)
-
-   5.4 [Motivación personal del proyecto](#54-motivación-personal-del-proyecto)
-
-   5.5 [Finalidad del proyecto](#55-finalidad-del-proyecto)
+- 4.1 [Objetivo principal](#41-objetivo-principal)
+- 4.2 [Objetivos técnicos](#42-objetivos-técnicos)
+- 4.3 [Objetivos funcionales](#43-objetivos-funcionales)
+- 4.4 [Objetivos visuales y de experiencia de usuario](#44-objetivos-visuales-y-de-experiencia-de-usuario)
+- 4.5 [Objetivos académicos](#45-objetivos-académicos)
 
 ---
 
-6. [Recursos utilizados](#6-recursos-utilizados)
+## 5. [Justificación del proyecto](#5-justificación-del-proyecto)
 
-   6.1 [Entornos de desarrollo](#61-entornos-de-desarrollo)
-
-   6.2 [Lenguajes de programación utilizados](#62-lenguajes-de-programación-utilizados)
-
-   6.3 [Utilidades y recursos externos](#63-utilidades-y-recursos-externos)
-
-   6.4 [Organización de recursos del proyecto](#64-organización-de-recursos-del-proyecto)
-
-   6.5 [Recursos hardware utilizados](#65-recursos-hardware-utilizados)
-
-   6.6 [Valoración de los recursos utilizados](#66-valoración-de-los-recursos-utilizados)
+- 5.1 [Análisis de mercado](#51-análisis-de-mercado)
+- 5.2 [Necesidad detectada](#52-necesidad-detectada)
+- 5.3 [Vinculación con los contenidos del ciclo formativo](#53-vinculación-con-los-contenidos-del-ciclo-formativo)
+- 5.4 [Motivación personal](#54-motivación-personal)
+- 5.5 [Valor aportado por la aplicación](#55-valor-aportado-por-la-aplicación)
 
 ---
 
-7. [Tecnologías de desarrollo](#7-tecnologías-de-desarrollo)
+## 6. [Recursos utilizados](#6-recursos-utilizados)
 
-   7.1 [Tecnologías frontend](#71-tecnologías-frontend)
-
-   7.2 [Tecnologías backend](#72-tecnologías-backend)
-
-   7.3 [Tecnologías de comunicación cliente-servidor](#73-tecnologías-de-comunicación-cliente-servidor)
-
-   7.4 [Tecnologías relacionadas con diseño responsive](#74-tecnologías-relacionadas-con-diseño-responsive)
-
-   7.5 [Tecnologías de seguridad](#75-tecnologías-de-seguridad)
-
-   7.6 [Valoración final de las tecnologías utilizadas](#76-valoración-final-de-las-tecnologías-utilizadas)
+- 6.1 [Entornos de desarrollo](#61-entornos-de-desarrollo)
+- 6.2 [Lenguajes utilizados](#62-lenguajes-utilizados)
+- 6.3 [Herramientas y utilidades externas](#63-herramientas-y-utilidades-externas)
+- 6.4 [Recursos gráficos](#64-recursos-gráficos)
+- 6.5 [Organización de recursos del proyecto](#65-organización-de-recursos-del-proyecto)
 
 ---
 
-8. [Diseño del proyecto](#8-diseño-del-proyecto)
+## 7. [Tecnologías de desarrollo](#7-tecnologías-de-desarrollo)
 
-   8.1 [Diseño de la base de datos](#81-diseño-de-la-base-de-datos)
-
-   8.2 [Diseño de la interfaz de usuario](#82-diseño-de-la-interfaz-de-usuario)
-
-   8.3 [Roles de la aplicación](#83-roles-de-la-aplicación)
-
-   8.4 [Usuarios creados para pruebas](#84-usuarios-creados-para-pruebas)
-
-   8.5 [Arquitectura y organización del proyecto](#85-arquitectura-y-organización-del-proyecto)
-
-   8.6 [Valoración final del diseño](#86-valoración-final-del-diseño)
+- 7.1 [Tecnologías frontend](#71-tecnologías-frontend)
+- 7.2 [Tecnologías backend](#72-tecnologías-backend)
+- 7.3 [Base de datos MySQL](#73-base-de-datos-mysql)
+- 7.4 [Comunicación cliente-servidor](#74-comunicación-cliente-servidor)
+- 7.5 [Seguridad implementada](#75-seguridad-implementada)
+- 7.6 [Valoración final de las tecnologías utilizadas](#76-valoración-final-de-las-tecnologías-utilizadas)
 
 ---
 
-9. [Lógica y codificación del proyecto](#9-lógica-y-codificación-del-proyecto)
+## 8. [Diseño del proyecto](#8-diseño-del-proyecto)
 
-   9.1 [Arquitectura general de la aplicación](#91-arquitectura-general-de-la-aplicación)
-
-   9.2 [Organización interna del proyecto](#92-organización-interna-del-proyecto)
-
-   9.3 [Principales procesos del sistema](#93-principales-procesos-del-sistema)
-
-   9.4 [Comunicación entre frontend y backend](#94-comunicación-entre-frontend-y-backend)
-
-   9.5 [Validación de datos](#95-validación-de-datos)
-
-   9.6 [Sistema de sesiones y control de acceso](#96-sistema-de-sesiones-y-control-de-acceso)
-
-   9.7 [Seguridad implementada](#97-seguridad-implementada)
-
-   9.8 [Comentarios y documentación del código](#98-comentarios-y-documentación-del-código)
-
-   9.9 [Valoración final de la lógica implementada](#99-valoración-final-de-la-lógica-implementada)
+- 8.1 [Diseño de la base de datos](#81-diseño-de-la-base-de-datos)
+- 8.2 [Modelo relacional](#82-modelo-relacional)
+- 8.3 [Diseño de la interfaz de usuario](#83-diseño-de-la-interfaz-de-usuario)
+- 8.4 [Roles de la aplicación](#84-roles-de-la-aplicación)
+- 8.5 [Usuarios creados para pruebas](#85-usuarios-creados-para-pruebas)
+- 8.6 [Arquitectura general del proyecto](#86-arquitectura-general-del-proyecto)
 
 ---
 
-10. [Despliegue web del proyecto](#10-despliegue-web-del-proyecto)
+## 9. [Lógica y codificación del proyecto](#9-lógica-y-codificación-del-proyecto)
 
-    10.1 [Entorno de despliegue utilizado](#101-entorno-de-despliegue-utilizado)
-
-    10.2 [Requisitos hardware y software](#102-requisitos-hardware-y-software)
-
-    10.3 [Estructura de despliegue del proyecto](#103-estructura-de-despliegue-del-proyecto)
-
-    10.4 [Proceso de despliegue](#104-proceso-de-despliegue)
-
-    10.5 [Comunicación cliente-servidor](#105-comunicación-cliente-servidor)
-
-    10.6 [Seguridad implementada en el despliegue](#106-seguridad-implementada-en-el-despliegue)
-
-    10.7 [Posible despliegue futuro en producción](#107-posible-despliegue-futuro-en-producción)
-
-    10.8 [Valoración final del despliegue](#108-valoración-final-del-despliegue)
+- 9.1 [Arquitectura general de funcionamiento](#91-arquitectura-general-de-funcionamiento)
+- 9.2 [Principales procesos del sistema](#92-principales-procesos-del-sistema)
+- 9.3 [Gestión de usuarios y sesiones](#93-gestión-de-usuarios-y-sesiones)
+- 9.4 [Gestión de productos y stock](#94-gestión-de-productos-y-stock)
+- 9.5 [Gestión del carrito y pedidos](#95-gestión-del-carrito-y-pedidos)
+- 9.6 [Validación de datos](#96-validación-de-datos)
+- 9.7 [Organización y documentación del código](#97-organización-y-documentación-del-código)
 
 ---
 
-11. [Manual de usuario](#11-manual-de-usuario)
+## 10. [Despliegue web del proyecto](#10-despliegue-web-del-proyecto)
+
+- 10.1 [Entorno de despliegue utilizado](#101-entorno-de-despliegue-utilizado)
+- 10.2 [Requisitos hardware y software](#102-requisitos-hardware-y-software)
+- 10.3 [Proceso de despliegue](#103-proceso-de-despliegue)
+- 10.4 [Configuración de seguridad](#104-configuración-de-seguridad)
+- 10.5 [Posible despliegue futuro en producción](#105-posible-despliegue-futuro-en-producción)
 
 ---
 
-12. [Conclusiones y aspectos a mejorar](#12-conclusiones-y-aspectos-a-mejorar)
-
-    12.1 [Valoración general del proyecto](#121-valoración-general-del-proyecto)
-
-    12.2 [Objetivos alcanzados](#122-objetivos-alcanzados)
-
-    12.3 [Principales dificultades encontradas](#123-principales-dificultades-encontradas)
-
-    12.4 [Aprendizajes obtenidos](#124-aprendizajes-obtenidos)
-
-    12.5 [Experiencia personal](#125-experiencia-personal)
-
-    12.6 [Aspectos a mejorar y futuras ampliaciones](#126-aspectos-a-mejorar-y-futuras-ampliaciones)
-
-    12.7 [Valoración final del proyecto](#127-valoración-final-del-proyecto)
+## 11. [Manual de usuario](#11-manual-de-usuario)
 
 ---
 
-13. [Bibliografía](#13-bibliografía)
+## 12. [Conclusiones y aspectos a mejorar](#12-conclusiones-y-aspectos-a-mejorar)
+
+- 12.1 [Valoración general del proyecto](#121-valoración-general-del-proyecto)
+- 12.2 [Dificultades encontradas](#122-dificultades-encontradas)
+- 12.3 [Aprendizajes obtenidos](#123-aprendizajes-obtenidos)
+- 12.4 [Aspectos a mejorar](#124-aspectos-a-mejorar)
+- 12.5 [Valoración final](#125-valoración-final)
 
 ---
 
-14. [Anexos](#anexos)
+## 13. [Bibliografía](#13-bibliografía)
 
-    14.1 [Anexo I — Estructura general del proyecto](#anexo-i--estructura-general-del-proyecto)
+---
 
-    14.2 [Anexo II — Capturas del proyecto](#anexo-ii--capturas-del-proyecto)
-    <br>
+## 14. [Anexos](#14-anexos)
+
+- 14.1 [Anexo I — Estructura del proyecto](#141-anexo-i--estructura-del-proyecto)
+- 14.2 [Anexo II — Capturas de la aplicación](#142-anexo-ii--capturas-de-la-aplicación)
 
 ---
 
 # 3. Introducción
 
-FULL MX es una aplicación web desarrollada como Proyecto Final del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW). Este proyecto nace con el objetivo de diseñar y desarrollar una plataforma de comercio electrónico moderna, visual y funcional, especializada en la venta de productos y equipación de motocross.
+FULL MX es una aplicación web desarrollada como Proyecto Final del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web. El proyecto consiste en el diseño, desarrollo e implementación de una plataforma de comercio electrónico especializada en la venta de productos, accesorios y equipación relacionada con el motocross. La finalidad principal de la aplicación es simular el funcionamiento de una tienda online real, integrando tanto la parte visual que utiliza el usuario final como la lógica interna necesaria para gestionar usuarios, productos, pedidos y stock.
 
-La idea principal del proyecto surge a partir del crecimiento actual del comercio electrónico y de la gran expansión que está teniendo el sector del motocross y los deportes offroad. Actualmente existen numerosas tiendas online dedicadas a este ámbito, aunque muchas de ellas presentan interfaces poco intuitivas, diseños anticuados o experiencias de usuario poco dinámicas. Debido a ello, se planteó la posibilidad de crear una plataforma propia que ofreciera una experiencia mucho más moderna, visualmente atractiva y sencilla de utilizar.
+El proyecto nace de la necesidad de crear una aplicación completa que reúna en un mismo sistema diferentes áreas del desarrollo web. A lo largo del desarrollo se han trabajado aspectos relacionados con la programación en entorno cliente, la programación en entorno servidor, la gestión de bases de datos, el diseño responsive, la seguridad básica y el despliegue de aplicaciones web. FULL MX no se limita a mostrar una página estática, sino que incorpora funcionalidades dinámicas que permiten interactuar con la base de datos y modificar el estado de la aplicación según las acciones realizadas por cada usuario.
 
-FULL MX pretende simular el funcionamiento real de una tienda online profesional, permitiendo tanto la gestión interna de productos y usuarios como la interacción de clientes finales mediante compras online. Para ello, se ha desarrollado un sistema completo con distintos tipos de usuarios, gestión de productos, control de stock por tallas, carrito de compra dinámico y visualización de pedidos realizados.
+La temática elegida está relacionada con el motocross y los deportes offroad, un sector en el que la imagen visual, la organización del catálogo y la facilidad de compra resultan especialmente importantes. Por ello, la aplicación ha sido diseñada con una estética deportiva, utilizando colores llamativos y una estructura visual orientada a ofrecer una experiencia moderna y clara. La plataforma permite navegar por distintas categorías de productos, consultar artículos disponibles, seleccionar tallas, añadir productos al carrito y realizar pedidos.
 
-Uno de los aspectos más importantes del proyecto ha sido conseguir una correcta separación entre frontend y backend, manteniendo una estructura organizada y fácil de mantener. La aplicación ha sido desarrollada utilizando tecnologías vistas durante el ciclo formativo como HTML, CSS, JavaScript, PHP y MySQL, integrando conocimientos relacionados con el desarrollo web en entorno cliente y entorno servidor, bases de datos relacionales, diseño responsive y gestión de sesiones.
+Además, la aplicación incorpora un sistema de usuarios basado en roles. Esta característica permite diferenciar claramente las acciones disponibles para cada tipo de usuario. Un cliente puede comprar productos y consultar sus pedidos, mientras que un empleado puede gestionar productos y stock. Por otro lado, el usuario administrador o jefe dispone de herramientas adicionales para administrar empleados y controlar de forma más completa el funcionamiento interno de la tienda.
 
-En la parte frontend se ha trabajado principalmente en la creación de una interfaz visual moderna e intuitiva, desarrollando un sistema dinámico capaz de cargar productos, mostrar información en tiempo real y actualizar distintos elementos de la página sin necesidad de recargar continuamente el navegador. Para ello se han utilizado funcionalidades avanzadas de JavaScript junto con manipulación del DOM y peticiones asíncronas entre cliente y servidor.
-
-En la parte backend se ha implementado toda la lógica relacionada con usuarios, sesiones, consultas SQL y gestión de productos y pedidos. La aplicación cuenta con distintos roles de usuario, cada uno con permisos específicos dentro de la plataforma:
-
-- Clientes.
-- Empleados.
-- Administradores o jefe.
-
-Cada uno de estos roles dispone de diferentes funcionalidades dentro de la aplicación. Los clientes pueden realizar compras y consultar sus pedidos, mientras que empleados y administradores disponen de herramientas adicionales para gestionar productos, actualizar stock, consultar pedidos o administrar empleados.
-
-Otro de los aspectos fundamentales del proyecto ha sido el diseño de la base de datos relacional. La estructura desarrollada permite gestionar correctamente productos, proveedores, usuarios, pedidos, detalles de pedidos y stock por tallas, manteniendo relaciones entre tablas mediante claves primarias y foráneas. Esto permite que la aplicación mantenga una estructura sólida y escalable, preparada para futuras ampliaciones o nuevas funcionalidades.
-
-Además de la funcionalidad principal de compra online, también se han implementado diferentes características orientadas a mejorar la experiencia de usuario y dar un aspecto más profesional a la aplicación, entre las que destacan:
-
-- Buscador dinámico de productos.
-- Carrito lateral interactivo.
-- Gestión de cantidades dentro del carrito.
-- Sistema de popups dinámicos.
-- Visualización detallada de pedidos.
-- Sistema de control de stock.
-- Gestión de productos por tallas.
-- Diseño responsive adaptable a distintos dispositivos.
-
-Durante el desarrollo del proyecto también se ha trabajado la organización interna del código, manteniendo una arquitectura basada en carpetas separadas para CSS, JavaScript, vistas, APIs y recursos gráficos. Además, se han añadido comentarios explicativos dentro del código para facilitar su comprensión y mantenimiento.
-
-FULL MX no solo representa una práctica académica, sino también una simulación bastante cercana al desarrollo de una aplicación web profesional real. Gracias a este proyecto ha sido posible aplicar de forma práctica gran parte de los conocimientos adquiridos durante el ciclo formativo, enfrentándose a problemas reales relacionados con diseño web, organización del código, comunicación entre frontend y backend, seguridad, experiencia de usuario y gestión de bases de datos.
-
-Finalmente, el resultado obtenido es una plataforma web completamente funcional, visualmente moderna y preparada para seguir creciendo en futuras versiones, pudiendo incorporar nuevas funcionalidades propias de una tienda online profesional real.
+Desde el punto de vista técnico, uno de los aspectos más importantes del proyecto ha sido mantener una separación clara entre frontend y backend. La parte frontend se encarga de la interfaz visual y de la interacción con el usuario, mientras que la parte backend procesa las peticiones, consulta la base de datos y devuelve la información necesaria para actualizar la aplicación. Esta separación facilita el mantenimiento del proyecto y permite que futuras ampliaciones puedan realizarse de forma más ordenada.
 
 ---
+
 ![Logo FULL MX](img/paginaPrincipal.png)
+
 ---
 
+## 3.1 Contexto del proyecto
+
+El proyecto se desarrolla dentro del marco académico del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web. A través de FULL MX se pretende demostrar la capacidad para desarrollar una aplicación web funcional, organizada y conectada a una base de datos, aplicando conocimientos adquiridos durante los diferentes módulos del ciclo.
+
+Durante el ciclo se trabajan tecnologías y conceptos fundamentales para el desarrollo de aplicaciones web modernas. FULL MX permite reunir estos conocimientos dentro de un proyecto práctico, donde cada parte cumple una función concreta. El frontend se ha desarrollado utilizando HTML, CSS y JavaScript, mientras que el backend se ha implementado mediante PHP y MySQL. Esta combinación permite construir una aplicación completa, capaz de mostrar información dinámica y responder a las acciones del usuario.
+
+El contexto del proyecto también está relacionado con la evolución actual del comercio electrónico. Cada vez más usuarios realizan compras online y esperan que las plataformas sean rápidas, claras y fáciles de utilizar. Por ello, el proyecto intenta reproducir algunas de las características habituales en tiendas online reales, como el carrito dinámico, la organización por categorías, el control de stock, la gestión de pedidos y la autenticación de usuarios.
+
+A nivel académico, este proyecto permite trabajar una visión completa del desarrollo web. No solo se desarrolla la parte visual, sino también la lógica interna, la base de datos y la organización del código. Esto hace que FULL MX sea un proyecto adecuado para demostrar competencias técnicas reales y capacidad para estructurar una aplicación de cierta complejidad.
+
+---
+
+## 3.2 Finalidad de la aplicación
+
+La finalidad principal de FULL MX es ofrecer una plataforma web capaz de gestionar una tienda online especializada en productos de motocross. La aplicación permite que los usuarios naveguen por el catálogo, busquen productos, consulten información de cada artículo, seleccionen tallas disponibles y añadan productos al carrito de compra.
+
+Además de la parte orientada al cliente, FULL MX incluye herramientas de gestión interna. Estas herramientas permiten a empleados y administradores realizar tareas relacionadas con la actualización de productos, control de stock, consulta de pedidos y administración de usuarios. De esta forma, el proyecto no solo representa una tienda online desde el punto de vista del comprador, sino también desde la perspectiva de gestión interna del negocio.
+
+La aplicación también tiene como finalidad demostrar una correcta integración entre interfaz, lógica de negocio y persistencia de datos. Cada producto, pedido, usuario y talla se gestiona desde una base de datos relacional, lo que permite almacenar información de forma organizada y consultarla cuando sea necesario. Esta estructura aporta realismo al proyecto y permite simular procesos habituales dentro de una tienda online real.
+
+---
+
+## 3.3 Descripción general del sistema
+
+El sistema se encuentra organizado mediante diferentes partes que trabajan conjuntamente. La interfaz visual permite al usuario interactuar con la plataforma. JavaScript gestiona eventos, actualiza elementos de la página y realiza peticiones al backend. PHP procesa esas peticiones, consulta la base de datos y devuelve respuestas. MySQL almacena la información persistente del sistema.
+
+Esta estructura permite que la aplicación tenga un comportamiento dinámico. Por ejemplo, cuando un usuario busca un producto, añade un artículo al carrito o consulta sus pedidos, la aplicación puede actualizar la información mostrada sin necesidad de recargar completamente la página. Este comportamiento mejora la experiencia de usuario y acerca el proyecto al funcionamiento de aplicaciones web modernas.
+
+La organización del sistema también se refleja en la estructura de carpetas del proyecto. Los estilos se encuentran separados en la carpeta CSS, la lógica del frontend en la carpeta JS, las APIs PHP en la carpeta API, las vistas HTML en la carpeta vistas y los recursos gráficos en carpetas específicas de imágenes y logotipos. Esta separación permite mantener el código más limpio y facilita su revisión, modificación y ampliación.
+
+---
 
 # 4. Objetivos del proyecto
 
-El desarrollo del proyecto FULL MX ha sido planteado con el objetivo de crear una aplicación web moderna, funcional y visualmente atractiva orientada al sector del motocross y la venta online de equipación deportiva.
+El desarrollo de FULL MX se ha planteado con el objetivo de crear una plataforma web completa que simule el funcionamiento de una tienda online especializada en productos de motocross. Para conseguirlo, se han definido diferentes objetivos técnicos, funcionales, visuales y académicos que han guiado todo el proceso de desarrollo.
 
-A lo largo del desarrollo se han establecido una serie de objetivos tanto técnicos como funcionales y visuales, buscando no solo aplicar los conocimientos adquiridos durante el Ciclo Formativo de Desarrollo de Aplicaciones Web, sino también simular el funcionamiento real de una plataforma profesional de comercio electrónico.
+El proyecto no se limita a crear una página visual, sino que busca integrar diferentes capas de una aplicación real. Por un lado, se desarrolla una interfaz atractiva y usable para los clientes. Por otro lado, se implementa una lógica backend capaz de gestionar usuarios, productos, pedidos y stock. Además, se diseña una base de datos relacional que permite almacenar y organizar toda la información necesaria.
 
-El proyecto ha sido desarrollado intentando mantener una estructura organizada y escalable, permitiendo incorporar futuras mejoras y nuevas funcionalidades.
+A nivel académico, el objetivo ha sido aplicar de forma práctica los conocimientos adquiridos durante el ciclo formativo. FULL MX reúne conceptos de programación, diseño, bases de datos, seguridad y despliegue, permitiendo demostrar una visión global del desarrollo web.
 
 ---
 
 ## 4.1 Objetivo principal
 
-El principal objetivo del proyecto ha sido desarrollar una plataforma web completa para la gestión y venta de productos de motocross, implementando tanto funcionalidades frontend como backend y manteniendo una experiencia de usuario moderna y dinámica.
+El objetivo principal del proyecto es desarrollar una aplicación web funcional, dinámica y organizada que permita gestionar una tienda online de productos de motocross. Esta aplicación debe permitir la navegación por categorías, la consulta de productos, la selección de tallas, la gestión del carrito y la realización de pedidos.
 
-La aplicación debía cumplir una serie de requisitos fundamentales:
+Además, la plataforma debe permitir la gestión interna por parte de empleados y administradores. Esto implica que el sistema debe incorporar herramientas para actualizar productos, modificar stock, borrar productos y administrar usuarios internos. De esta forma, la aplicación simula no solo la parte visible para el cliente, sino también la parte de administración que tendría una tienda online real.
 
-- Ser completamente funcional.
-- Tener un diseño moderno y atractivo.
-- Permitir la navegación intuitiva.
-- Gestionar usuarios mediante sesiones.
-- Gestionar productos y pedidos.
-- Mantener una correcta organización del código.
-- Utilizar una base de datos relacional.
-- Simular un entorno profesional real.
-
-Además, se buscó desarrollar una aplicación que pudiera seguir ampliándose en futuras versiones sin necesidad de rehacer completamente la estructura principal del sistema.
+Este objetivo principal exige una correcta integración entre frontend, backend y base de datos. La interfaz visual debe ser clara y cómoda, el backend debe procesar correctamente las acciones realizadas por el usuario y la base de datos debe almacenar la información de forma coherente y segura.
 
 ---
 
 ## 4.2 Objetivos técnicos
 
-Uno de los principales propósitos del proyecto ha sido aplicar de forma práctica los conocimientos técnicos aprendidos durante el ciclo formativo DAW.
+Desde el punto de vista técnico, uno de los objetivos más importantes ha sido mantener una arquitectura clara y organizada. Para ello, se ha separado la lógica del proyecto en diferentes carpetas y archivos, evitando mezclar responsabilidades dentro de un mismo bloque de código.
 
-Para ello se establecieron diferentes objetivos relacionados con el desarrollo frontend, backend y bases de datos.
+La aplicación debía utilizar tecnologías vistas durante el ciclo formativo, como HTML, CSS, JavaScript, PHP y MySQL. Cada tecnología se ha aplicado en la parte correspondiente del proyecto. HTML se ha utilizado para estructurar el contenido, CSS para diseñar la interfaz, JavaScript para aportar dinamismo, PHP para procesar la lógica de servidor y MySQL para almacenar la información.
 
-### 4.2.1 Desarrollo frontend
+Otro objetivo técnico importante ha sido implementar comunicación entre cliente y servidor mediante peticiones asíncronas. Esta comunicación permite que JavaScript solicite información al backend sin recargar completamente la página. Gracias a ello, se consigue una experiencia más fluida y moderna.
 
-En la parte frontend se buscó desarrollar una interfaz moderna y dinámica utilizando tecnologías web actuales.
-
-Los principales objetivos fueron:
-
-- Crear una interfaz visual atractiva.
-- Implementar navegación dinámica.
-- Diseñar templates reutilizables.
-- Mejorar la experiencia de usuario.
-- Aplicar diseño responsive.
-- Crear popups dinámicos.
-- Implementar efectos visuales y animaciones suaves.
-- Mantener una correcta organización del CSS.
-
-Además, se buscó crear una experiencia visual inspirada en plataformas reales de comercio electrónico relacionadas con deportes extremos y motocross.
-
----
-
-### 4.2.2 Desarrollo backend
-
-En la parte backend el objetivo principal fue desarrollar una estructura funcional y segura capaz de gestionar toda la lógica de la aplicación.
-
-Los objetivos planteados fueron:
-
-- Gestionar usuarios mediante sesiones PHP.
-- Crear un sistema de autenticación.
-- Gestionar productos desde base de datos.
-- Gestionar pedidos.
-- Gestionar stock por tallas.
-- Gestionar empleados y administradores.
-- Validar datos enviados desde formularios.
-- Realizar consultas SQL eficientes.
-
-También se buscó mantener una estructura organizada separando correctamente frontend y backend.
-
----
-
-### 4.2.3 Gestión de base de datos
-
-Otro de los objetivos fundamentales del proyecto fue diseñar una base de datos relacional correctamente estructurada.
-
-La base de datos debía permitir:
-
-- Gestionar productos.
-- Gestionar clientes.
-- Gestionar empleados.
-- Gestionar pedidos.
-- Gestionar detalles de pedidos.
-- Gestionar tallas y stock.
-- Gestionar proveedores.
-
-Además, era importante mantener relaciones correctas entre tablas utilizando claves primarias y claves foráneas.
+También se ha trabajado la validación de datos, el uso de sesiones, la protección básica de información sensible y la organización del código mediante comentarios explicativos. Todo ello contribuye a que el proyecto sea más comprensible, seguro y mantenible.
 
 ---
 
 ## 4.3 Objetivos funcionales
 
-Desde el punto de vista funcional, la aplicación debía simular el comportamiento real de una tienda online moderna.
+Los objetivos funcionales están relacionados con las acciones que la aplicación debe permitir realizar. FULL MX debía ofrecer un conjunto de funcionalidades suficiente para simular una tienda online real.
 
-### 4.3.1 Gestión de usuarios
+Entre las funcionalidades principales se encuentra el registro de clientes, el inicio de sesión, la visualización de productos, la búsqueda de artículos, la selección de tallas, la gestión del carrito, la realización de pedidos y la consulta posterior de dichos pedidos.
 
-La aplicación debía permitir:
+Además, los usuarios con rol de empleado o administrador debían disponer de herramientas adicionales. Estas herramientas permiten gestionar productos, actualizar stock por tallas, borrar productos y consultar información interna. En el caso del administrador, también se incluyen funciones relacionadas con la gestión de empleados.
 
-- Registro de clientes.
-- Inicio de sesión.
-- Gestión de sesiones.
-- Diferenciación de roles.
-- Control de acceso según permisos.
-
-Se implementaron tres tipos de usuarios:
-
-| Rol | Funcionalidad |
-|---|---|
-| Cliente | Comprar y consultar pedidos |
-| Empleado | Gestionar productos y stock |
-| Jefe | Administración completa |
+Estas funcionalidades convierten a FULL MX en una aplicación más completa, ya que no se limita a mostrar productos, sino que gestiona procesos reales propios de una tienda online.
 
 ---
 
-### 4.3.2 Gestión de productos
+## 4.4 Objetivos visuales y de experiencia de usuario
 
-La aplicación debía permitir:
+La experiencia de usuario ha sido un elemento importante dentro del proyecto. Una tienda online debe ser funcional, pero también debe resultar clara, cómoda y atractiva para el usuario.
 
-- Mostrar productos dinámicamente.
-- Buscar productos.
-- Filtrar por categorías.
-- Añadir productos al carrito.
-- Gestionar stock por tallas.
-- Actualizar stock.
-- Borrar productos.
+El diseño visual de FULL MX se ha basado en una estética relacionada con el mundo del motocross. Para ello se han utilizado colores rojos, blancos y negros, buscando transmitir una imagen deportiva y moderna. Además, se han incorporado efectos visuales como transiciones, cambios al pasar el ratón, tarjetas de producto y ventanas emergentes.
 
-Además, los productos debían mostrar:
+La interfaz se ha organizado para que el usuario pueda localizar fácilmente los elementos principales. El header permite acceder a las categorías, al buscador, al carrito y a la sesión de usuario. Las categorías permiten ordenar los productos y el carrito lateral facilita la visualización de los artículos seleccionados.
 
-- Imagen.
-- Nombre.
-- Identificador.
-- Precio.
-- Descripción.
-- Tallas disponibles.
+También se ha tenido en cuenta la adaptación a diferentes dispositivos. La aplicación debe poder utilizarse correctamente desde ordenador, tablet o móvil, por lo que se ha aplicado diseño responsive mediante CSS.
 
 ---
 
-### 4.3.3 Sistema de carrito
-
-Uno de los objetivos principales fue desarrollar un carrito dinámico e intuitivo.
-
-El carrito debía permitir:
-
-- Añadir productos.
-- Seleccionar tallas.
-- Modificar cantidades.
-- Eliminar productos.
-- Mostrar precio total.
-- Confirmar pedidos.
-
-Toda la lógica debía funcionar dinámicamente utilizando JavaScript sin necesidad de recargar continuamente la página.
-
+![Logo FULL MX](img/movil.png)
 ---
 
-### 4.3.4 Gestión de pedidos
+## 4.5 Objetivos académicos
 
-La aplicación debía permitir almacenar pedidos correctamente en la base de datos y mostrarlos posteriormente al cliente.
+El proyecto tiene una finalidad académica clara: demostrar los conocimientos adquiridos durante el Ciclo Formativo de Desarrollo de Aplicaciones Web. FULL MX permite aplicar de manera práctica contenidos relacionados con distintos módulos del ciclo.
 
-Cada pedido debía contener:
+En la parte de desarrollo en entorno cliente se han aplicado conocimientos de HTML, CSS, JavaScript, manipulación del DOM, eventos y peticiones asíncronas. En la parte de desarrollo en entorno servidor se ha trabajado con PHP, sesiones, formularios, validaciones y acceso a base de datos. En bases de datos se ha diseñado una estructura relacional con tablas conectadas entre sí. En diseño de interfaces se ha trabajado la estética, usabilidad y adaptación responsive.
 
-- Productos comprados.
-- Cantidad de cada producto.
-- Precio total.
-- Fecha del pedido.
-- Relación con el cliente.
-
-También se implementó un popup dinámico para mostrar el detalle completo de cada pedido.
-
----
-
-## 4.4 Objetivos visuales y experiencia de usuario
-
-El aspecto visual de la aplicación ha sido uno de los puntos más importantes durante el desarrollo del proyecto.
-
-Se buscó crear una interfaz:
-
-- Moderna.
-- Deportiva.
-- Visualmente atractiva.
-- Dinámica.
-- Profesional.
-
-Para ello se utilizaron colores relacionados con el mundo del motocross:
-
-- Rojo.
-- Blanco.
-- Negro.
-
-También se implementaron:
-
-- Animaciones suaves.
-- Hover effects.
-- Popups.
-- Tarjetas dinámicas.
-- Transiciones.
-- Botones interactivos.
-
-El objetivo principal era conseguir una experiencia de usuario cómoda y atractiva.
-
----
-
-## 4.5 Objetivos de organización y mantenimiento
-
-Otro de los objetivos fundamentales fue mantener una estructura de proyecto organizada y fácil de mantener.
-
-Para ello se creó una arquitectura separada en carpetas:
-
-```txt
-/css
-/js
-/api
-/vistas
-/img
-/logos
-```
-
-Esta estructura permite:
-
-- Mantener el código ordenado.
-- Facilitar futuras modificaciones.
-- Mejorar la legibilidad.
-- Facilitar el mantenimiento del proyecto.
-
-Además, se añadieron comentarios explicativos dentro del código para mejorar su comprensión.
-
----
-
-## 4.6 Objetivos académicos
-
-El proyecto también tenía una finalidad académica importante.
-
-Los principales objetivos académicos fueron:
-
-- Aplicar conocimientos del ciclo DAW.
-- Mejorar la capacidad de organización.
-- Aprender a estructurar proyectos reales.
-- Integrar frontend y backend.
-- Trabajar con bases de datos reales.
-- Mejorar habilidades de diseño web.
-- Comprender la arquitectura cliente-servidor.
-- Mejorar la capacidad de resolución de problemas.
-
-Gracias al desarrollo de FULL MX se ha conseguido adquirir una experiencia práctica muy cercana a un entorno profesional real.
-
----
-## 4.7 Resultado esperado
-
-El resultado final esperado del proyecto era obtener una aplicación web completamente funcional y visualmente profesional capaz de representar una tienda online moderna especializada en motocross.
-
-La aplicación final debía:
-
-- Funcionar correctamente.
-- Tener un diseño moderno.
-- Ser responsive.
-- Mantener una estructura organizada.
-- Utilizar una base de datos relacional.
-- Gestionar usuarios y pedidos.
-- Permitir futuras ampliaciones.
-
-Finalmente, FULL MX ha conseguido cumplir los objetivos planteados inicialmente, dando como resultado una plataforma sólida, dinámica y funcional.
+Además, el proyecto ha permitido desarrollar capacidades importantes como la planificación, la resolución de errores, la organización de carpetas, el mantenimiento de código y la documentación técnica. Estas capacidades son fundamentales en cualquier entorno profesional de desarrollo web.
 
 ---
 
 # 5. Justificación del proyecto
 
-El desarrollo del proyecto FULL MX surge como respuesta a la creciente importancia que tiene actualmente el comercio electrónico dentro de prácticamente todos los sectores comerciales, especialmente en ámbitos relacionados con el deporte, la equipación técnica y los productos especializados. En los últimos años, las tiendas online han evolucionado considerablemente, ofreciendo experiencias cada vez más visuales, dinámicas e intuitivas para los usuarios. Debido a ello, se consideró interesante desarrollar una plataforma propia orientada específicamente al mundo del motocross y los deportes offroad.
+El proyecto FULL MX se justifica por la necesidad de desarrollar una aplicación completa que reúna diferentes áreas del desarrollo web dentro de un único sistema funcional. La elección de una tienda online como temática permite trabajar una gran variedad de funcionalidades habituales en proyectos reales, como usuarios, productos, pedidos, stock, sesiones y administración.
 
-La principal idea del proyecto ha sido crear una aplicación web moderna y funcional que simule el funcionamiento real de una tienda online profesional, aplicando los conocimientos adquiridos durante el Ciclo Formativo de Desarrollo de Aplicaciones Web y enfrentándose a situaciones similares a las que podrían aparecer dentro de un entorno profesional real de desarrollo.
+Además, el comercio electrónico es uno de los sectores más importantes dentro del desarrollo web actual. Muchas empresas necesitan plataformas digitales para vender productos, gestionar clientes y administrar pedidos. Por este motivo, desarrollar una aplicación de este tipo resulta especialmente útil desde el punto de vista formativo.
 
-Además de la parte técnica, FULL MX también surge como un proyecto motivado por el interés personal en el mundo del motocross y la posibilidad de desarrollar una plataforma visualmente atractiva, dinámica y centrada en la experiencia del usuario.
+La temática del motocross permite, además, crear una identidad visual clara y diferenciada. El proyecto no se basa únicamente en funcionalidades técnicas, sino también en una experiencia visual coherente con el sector al que va dirigido.
 
 ---
-
 
 ## 5.1 Análisis de mercado
 
-Actualmente existen numerosas plataformas dedicadas a la venta online de productos relacionados con el motocross y los deportes extremos. Sin embargo, tras realizar un análisis general del mercado, se pudo observar que muchas de estas páginas presentan ciertos problemas relacionados con la experiencia de usuario, la organización visual o la navegación de la plataforma.
+Durante la fase inicial del proyecto se analizaron diferentes plataformas reales dedicadas a la venta de productos relacionados con motocross, motor y equipación deportiva. Entre las referencias observadas se encuentran tiendas como 24MX, Motocard, GreenlandMX y FC-Moto.
 
-Entre los principales problemas detectados destacan:
+Estas plataformas comparten características comunes, como la organización por categorías, el uso de imágenes de producto, filtros de búsqueda, carritos de compra y sistemas de usuario. Sin embargo, también se observaron aspectos mejorables, especialmente en cuanto a sobrecarga visual, navegación compleja o dificultad para localizar determinados elementos.
 
-- Interfaces demasiado recargadas.
-- Diseños poco modernos.
-- Navegación compleja.
-- Mala adaptación a dispositivos móviles.
-- Falta de dinamismo.
-- Sistemas de compra poco intuitivos.
-- Sobrecarga de información visual.
-
-A partir de este análisis se decidió desarrollar una plataforma propia que intentase solucionar estos problemas mediante una interfaz más moderna, limpia y visualmente atractiva.
-
-FULL MX ha sido diseñada intentando transmitir una estética agresiva y deportiva inspirada en el mundo del motocross, utilizando colores corporativos relacionados con este sector, especialmente tonos rojos, blancos y negros.
-
-Además del aspecto visual, otro de los objetivos del proyecto ha sido mejorar la interacción del usuario mediante elementos dinámicos como:
-
-- Popups interactivos.
-- Carrito lateral dinámico.
-- Buscador de productos.
-- Templates reutilizables.
-- Efectos visuales.
-- Animaciones suaves.
-- Navegación intuitiva.
-
----
-
-### Plataformas analizadas como referencia
-
-Durante el desarrollo del proyecto se tomaron como referencia visual y funcional distintas plataformas reales relacionadas con la venta de equipación deportiva y motocross.
-
-| Plataforma | Características observadas |
-|---|---|
-| 24MX | Diseño moderno y catálogo amplio |
-| Motocard | Navegación organizada y visual |
-| GreenlandMX | Especialización en motocross |
-| FC-Moto | Plataforma internacional con gran variedad |
-| Motosport | Amplio catálogo de productos deportivos |
-
-Estas plataformas sirvieron principalmente como inspiración visual y funcional para desarrollar una aplicación propia con identidad y estructura personalizada.
-
-No obstante, FULL MX ha sido desarrollada completamente desde cero utilizando tecnologías web vistas durante el ciclo formativo.
+A partir de este análisis se decidió que FULL MX debía mantener una estructura más clara, con categorías visibles, tarjetas de producto ordenadas, carrito accesible y una estética moderna. El objetivo no fue copiar una plataforma existente, sino tomar como referencia buenas prácticas del sector y adaptarlas a un proyecto propio.
 
 ---
 
 ## 5.2 Necesidad detectada
 
-Uno de los principales motivos que justifican el desarrollo del proyecto ha sido la necesidad de crear una aplicación capaz de integrar múltiples funcionalidades dentro de una única plataforma moderna y organizada.
+La necesidad principal detectada fue desarrollar una plataforma capaz de integrar funcionalidades de cliente y de administración en un mismo proyecto. Muchas aplicaciones académicas se centran únicamente en la parte visual o en formularios básicos, pero FULL MX busca ir más allá incorporando procesos completos.
 
-El proyecto permite combinar diferentes áreas del desarrollo web como:
+La aplicación permite gestionar el ciclo completo de compra: visualización de productos, selección de talla, incorporación al carrito, confirmación del pedido y consulta posterior. Al mismo tiempo, permite al personal interno gestionar stock y productos. Esta doble perspectiva aporta realismo al proyecto y lo convierte en una aplicación más completa.
 
-- Diseño de interfaces.
-- Desarrollo frontend.
-- Desarrollo backend.
-- Bases de datos.
-- Gestión de usuarios.
-- Gestión de stock.
-- Comunicación cliente-servidor.
-- Seguridad y sesiones.
-
-Además, se buscó crear una plataforma que pudiera ampliarse fácilmente en el futuro, manteniendo una estructura organizada y escalable.
-
-FULL MX no ha sido planteada únicamente como una práctica académica, sino también como una simulación bastante cercana al desarrollo de una aplicación web real de comercio electrónico.
+También se detectó la necesidad de mantener una estructura escalable. El proyecto debía poder crecer en el futuro sin necesidad de rehacer toda la base. Por ello se organizaron carpetas, archivos y funcionalidades de manera separada, facilitando futuras mejoras.
 
 ---
 
+## 5.3 Vinculación con los contenidos del ciclo formativo
 
-## 5.3 Vinculación con los contenidos vistos en el Ciclo Formativo
+FULL MX está directamente vinculado con los contenidos del Ciclo Formativo de Desarrollo de Aplicaciones Web. En el módulo de desarrollo web en entorno cliente se aplican conocimientos de JavaScript, eventos, manipulación del DOM y actualización dinámica de la interfaz. En el módulo de desarrollo web en entorno servidor se trabaja con PHP, sesiones, formularios y consultas a base de datos.
 
-El proyecto FULL MX ha permitido aplicar de forma práctica una gran cantidad de conocimientos aprendidos durante el Ciclo Formativo de Desarrollo de Aplicaciones Web.
+En el módulo de bases de datos se ha diseñado una estructura relacional que permite almacenar información de usuarios, productos, proveedores, pedidos y stock. En diseño de interfaces se han aplicado criterios de usabilidad, colores, responsive design y organización visual. En despliegue se ha utilizado XAMPP, Apache, MySQL y configuración mediante archivos `.env` y `.htaccess`.
 
-Gracias al desarrollo del proyecto se han trabajado contenidos relacionados con prácticamente todos los módulos principales del ciclo.
-
-### Desarrollo Web en Entorno Cliente
-
-En este módulo se han aplicado conocimientos relacionados con:
-
-- JavaScript.
-- Manipulación del DOM.
-- Eventos.
-- Templates dinámicos.
-- Popups.
-- Fetch API.
-- Validación de formularios.
-- Interacción dinámica.
-
-Se ha trabajado especialmente la comunicación dinámica entre frontend y backend utilizando peticiones asíncronas.
+Por tanto, el proyecto funciona como una integración práctica de los principales conocimientos adquiridos durante el ciclo formativo.
 
 ---
 
-### Desarrollo Web en Entorno Servidor
+## 5.4 Motivación personal
 
-En la parte backend se han aplicado conocimientos relacionados con:
+La elección del motocross como temática está relacionada con el interés personal por este ámbito. Trabajar sobre un tema conocido y motivador facilita la implicación en el proyecto y permite prestar mayor atención a los detalles visuales y funcionales.
 
-- PHP.
-- Gestión de sesiones.
-- Validación de usuarios.
-- Consultas SQL.
-- Gestión de stock.
-- Gestión de pedidos.
-- Control de acceso.
-- Arquitectura cliente-servidor.
+Además, el motocross es un sector con una estética muy marcada. Esto permitió diseñar una aplicación con personalidad propia, utilizando colores llamativos, imágenes relacionadas con el deporte y una interfaz orientada a transmitir dinamismo.
 
-La aplicación incorpora distintos niveles de acceso dependiendo del tipo de usuario conectado.
+Esta motivación personal también ayudó durante las fases más complejas del desarrollo, especialmente al implementar funcionalidades como stock por tallas, carrito dinámico y gestión de pedidos.
 
 ---
 
-### Bases de Datos
+## 5.5 Valor aportado por la aplicación
 
-La base de datos desarrollada ha permitido aplicar conocimientos relacionados con:
+FULL MX aporta valor como proyecto académico porque demuestra una visión completa del desarrollo web. No se trata de una página estática, sino de una aplicación que conecta frontend, backend y base de datos.
 
-- Diseño relacional.
-- Relaciones entre tablas.
-- Claves primarias.
-- Claves foráneas.
-- Consultas SQL.
-- Gestión de stock por tallas.
-- Relación entre productos y pedidos.
+El proyecto también aporta valor desde el punto de vista funcional, ya que simula procesos habituales en una tienda real. La gestión de roles, el control de stock por tallas y el detalle de pedidos hacen que la aplicación tenga un funcionamiento más realista.
 
-El diseño de la base de datos ha sido uno de los puntos más importantes del proyecto, ya que gran parte del funcionamiento de la aplicación depende de una correcta organización de la información.
-
----
-
-### Diseño de Interfaces Web
-
-En este módulo se han aplicado conocimientos relacionados con:
-
-- Responsive Design.
-- Diseño visual.
-- Experiencia de usuario.
-- Diseño comercial.
-- Jerarquía visual.
-- Colores corporativos.
-- Animaciones y efectos CSS.
-
-El objetivo principal fue conseguir una interfaz moderna y profesional inspirada en plataformas reales de comercio electrónico.
-
----
-
-### Despliegue de Aplicaciones Web
-
-El proyecto también ha permitido trabajar aspectos relacionados con el despliegue y configuración de aplicaciones web:
-
-- Configuración de Apache.
-- Uso de XAMPP.
-- Variables de entorno.
-- Archivo .htaccess.
-- Organización del proyecto.
-
----
-
-## 5.4 Motivación personal del proyecto
-
-La elección de este proyecto también se encuentra relacionada con el interés personal en el mundo del motocross y los deportes de motor.
-
-Desarrollar una aplicación relacionada con un ámbito conocido y de interés personal ha permitido trabajar con mayor motivación durante todas las fases del proyecto, dedicando especial atención tanto al diseño visual como a la experiencia de usuario.
-
-Además, el proyecto ha servido como una oportunidad para desarrollar una aplicación mucho más cercana a un entorno real de trabajo, enfrentándose a problemas relacionados con:
-
-- Organización del código.
-- Gestión de usuarios.
-- Diseño visual.
-- Bases de datos.
-- Comunicación frontend-backend.
-- Seguridad.
-- Experiencia de usuario.
-
-Gracias a ello, FULL MX ha supuesto una experiencia práctica muy completa dentro del aprendizaje del desarrollo web.
-
----
-
-## 5.5 Finalidad del proyecto
-
-La finalidad principal de FULL MX ha sido desarrollar una aplicación web completa capaz de demostrar los conocimientos adquiridos durante el ciclo formativo y servir como ejemplo práctico de un proyecto real de comercio electrónico.
-
-Además de la parte académica, el proyecto también ha permitido:
-
-- Mejorar habilidades de programación.
-- Aprender a organizar proyectos grandes.
-- Comprender la arquitectura cliente-servidor.
-- Trabajar con bases de datos reales.
-- Mejorar conocimientos de diseño web.
-- Simular un entorno profesional de desarrollo.
-
-El resultado final es una plataforma funcional, dinámica y escalable que podría continuar ampliándose con nuevas funcionalidades en futuras versiones.
+Además, la estructura del proyecto permite futuras ampliaciones, como pasarela de pago, facturación, estadísticas, integración con proveedores o panel administrativo avanzado.
 
 ---
 
 # 6. Recursos utilizados
 
-Durante el desarrollo del proyecto FULL MX se han utilizado diferentes recursos hardware y software con el objetivo de crear una aplicación web moderna, organizada y completamente funcional. La selección de herramientas y tecnologías utilizadas ha permitido trabajar de forma profesional durante todas las fases del desarrollo, facilitando tanto la programación como el diseño, las pruebas y la gestión de la base de datos.
+Para el desarrollo de FULL MX se han utilizado diferentes recursos software, herramientas de desarrollo, lenguajes de programación y recursos gráficos. La elección de estos recursos se realizó teniendo en cuenta las necesidades del proyecto y los contenidos trabajados durante el ciclo formativo.
 
-Además de las herramientas de desarrollo, también se han utilizado diferentes recursos visuales y utilidades externas que han permitido mejorar la estética de la aplicación y optimizar el flujo de trabajo durante la realización del proyecto.
-
----
-
-# 6.1 Entornos de desarrollo
-
-Para el desarrollo del proyecto se han utilizado distintos entornos y herramientas de programación orientadas al desarrollo web frontend y backend.
-
-Cada herramienta ha sido seleccionada en función de las necesidades específicas del proyecto.
+El objetivo fue utilizar herramientas accesibles, conocidas y adecuadas para construir una aplicación web completa en entorno local. Estas herramientas permitieron programar, probar, gestionar la base de datos y organizar el proyecto de forma eficiente.
 
 ---
 
-## 6.1.1 Visual Studio Code
+## 6.1 Entornos de desarrollo
 
-Visual Studio Code ha sido el entorno de desarrollo principal utilizado durante todo el proyecto.
+El entorno principal utilizado ha sido Visual Studio Code. Este editor permite trabajar cómodamente con múltiples lenguajes y ofrece funciones útiles como resaltado de sintaxis, autocompletado, terminal integrada y organización de carpetas.
 
-Este IDE ha permitido trabajar cómodamente tanto en la parte frontend como backend de la aplicación, gracias a su compatibilidad con múltiples lenguajes y extensiones.
+Para ejecutar la aplicación se utilizó XAMPP, que proporciona un entorno local con Apache y MySQL. Apache permite servir los archivos del proyecto y ejecutar PHP, mientras que MySQL permite almacenar la base de datos. phpMyAdmin se utilizó como herramienta gráfica para gestionar tablas, consultas y registros.
 
-### Funciones principales utilizadas
-
-- Edición de código HTML.
-- Edición de CSS.
-- Programación JavaScript.
-- Desarrollo PHP.
-- Organización de carpetas.
-- Integración con GitHub.
-- Autocompletado de código.
-- Resaltado de sintaxis.
-- Gestión de extensiones.
-
-### Ventajas de utilización
-
-- Ligereza y rendimiento.
-- Compatibilidad multiplataforma.
-- Gran cantidad de extensiones.
-- Interfaz intuitiva.
-- Fácil organización del proyecto.
-
----
-## 6.1.2 XAMPP
-
-XAMPP ha sido utilizado como entorno local de desarrollo para ejecutar el servidor Apache y gestionar la base de datos MySQL.
-
-Gracias a esta herramienta ha sido posible ejecutar el proyecto de forma local simulando un entorno real de servidor web.
-
-### Servicios utilizados
-
-| Servicio | Función |
-|---|---|
-| Apache | Servidor web |
-| MySQL | Gestión base de datos |
-| phpMyAdmin | Administración de MySQL |
-
-### Funcionalidades principales
-
-- Ejecución local del proyecto.
-- Gestión del servidor Apache.
-- Gestión de bases de datos.
-- Pruebas de conexión frontend-backend.
-- Simulación de entorno real.
+GitHub también se utilizó como recurso de almacenamiento y control de versiones. Aunque el proyecto se ha desarrollado principalmente en local, disponer de un repositorio permite guardar copias del código y mantener una estructura más profesional.
 
 ---
 
-## 6.1.3 phpMyAdmin
+## 6.2 Lenguajes utilizados
 
-phpMyAdmin ha sido utilizado para la gestión visual de la base de datos del proyecto.
+El proyecto utiliza HTML5 para estructurar las vistas de la aplicación. Gracias a HTML se definen formularios, botones, contenedores, secciones y elementos visuales. CSS3 se utiliza para aplicar estilos, colores, posiciones, efectos y responsive design.
 
-Esta herramienta ha permitido:
+JavaScript se utiliza para gestionar la parte dinámica del frontend. Gracias a JavaScript se actualiza el carrito, se generan productos, se abren popups, se realizan búsquedas y se envían peticiones al backend.
 
-- Crear tablas.
-- Modificar estructuras.
-- Ejecutar consultas SQL.
-- Insertar registros.
-- Eliminar datos.
-- Gestionar relaciones entre tablas.
-
-Además, ha facilitado enormemente las pruebas relacionadas con productos, usuarios y pedidos.
+PHP se utiliza como lenguaje de servidor. Su función principal es procesar datos, consultar la base de datos, gestionar sesiones y devolver respuestas al frontend. Finalmente, SQL y MySQL se utilizan para diseñar y consultar la base de datos relacional.
 
 ---
 
-## 6.1.4 GitHub
+Imagen: Fragmento de código JavaScript realizando una petición Fetch.
 
-GitHub ha sido utilizado como sistema de control de versiones y almacenamiento del proyecto.
-
-Su utilización ha permitido:
-
-- Guardar versiones del proyecto.
-- Mantener copias de seguridad.
-- Organizar cambios.
-- Compartir el código.
-- Gestionar el repositorio.
-
-Además, GitHub ha facilitado la organización del proyecto y el seguimiento del desarrollo realizado.
+Imagen: Fragmento de código PHP consultando la base de datos.
 
 ---
 
+## 6.3 Herramientas y utilidades externas
 
-# 6.2 Lenguajes de programación utilizados
+Además de las herramientas principales, se utilizaron recursos externos para mejorar el diseño y la experiencia visual. Font Awesome permitió incorporar iconos como carrito, usuario, búsqueda o cierre de ventanas emergentes. Google Fonts permitió mejorar la apariencia tipográfica de la aplicación.
 
-Durante el desarrollo de FULL MX se han utilizado distintos lenguajes de programación y tecnologías web, cada uno enfocado en una parte concreta del proyecto.
-
----
-
-## 6.2.1 HTML5
-
-HTML5 ha sido utilizado para estructurar todas las páginas y vistas de la aplicación.
-
-Gracias a HTML ha sido posible construir:
-
-- Estructura principal de páginas.
-- Formularios.
-- Templates de productos.
-- Popups.
-- Estructuras de navegación.
-- Contenedores dinámicos.
-
-Además, se han utilizado etiquetas semánticas para mejorar la organización y legibilidad del código.
-
-### Uso dentro del proyecto
-
-- Página principal.
-- Inicio de sesión.
-- Registro de usuarios.
-- Paneles de usuario.
-- Categorías de productos.
-- Política de privacidad.
-- Formularios dinámicos.
+También se utilizaron imágenes relacionadas con motocross y productos deportivos para dar mayor realismo al proyecto. Estas imágenes se organizaron dentro de la carpeta `img`, permitiendo que los productos pudieran mostrarse de forma visual dentro del catálogo.
 
 ---
 
-## 6.2.2 CSS3
+## 6.4 Recursos gráficos
 
-CSS3 ha sido utilizado para el diseño visual completo de la aplicación.
+Los recursos gráficos tienen una función importante dentro de FULL MX, ya que permiten reforzar la identidad visual del proyecto. Una tienda online depende en gran medida de la presentación visual de sus productos, por lo que las imágenes ayudan a que la aplicación resulte más realista.
 
-Se ha trabajado especialmente en crear una estética moderna y deportiva relacionada con el mundo del motocross.
-
-### Características implementadas
-
-- Diseño responsive.
-- Efectos hover.
-- Animaciones.
-- Popups dinámicos.
-- Tarjetas de productos.
-- Diseño adaptable.
-- Flexbox.
-- Grid Layout.
-- Sombras y transiciones.
-
-### Paleta de colores utilizada
-
-| Color | Función |
-|---|---|
-| Rojo | Color corporativo principal |
-| Blanco | Fondos y contraste |
-| Negro | Detalles y profundidad visual |
-
-Además, el CSS se ha organizado mediante bloques comentados para facilitar su mantenimiento y comprensión.
+Se utilizaron imágenes para productos, fondos, logotipos y capturas de la propia aplicación. Además, dentro de la memoria se incorporan indicaciones de capturas para mostrar el funcionamiento del sistema, como la página principal, carrito, panel de usuario, gestión de stock y diseño responsive.
 
 ---
 
-## 6.2.3 JavaScript
+## 6.5 Organización de recursos del proyecto
 
-JavaScript ha sido uno de los lenguajes más importantes dentro del proyecto, ya que se ha utilizado para toda la lógica dinámica del frontend.
+El proyecto se organizó mediante carpetas separadas según la función de cada recurso. Esta organización permite encontrar fácilmente cada parte del sistema y facilita el mantenimiento.
 
-Gracias a JavaScript se han implementado funcionalidades como:
-
-- Carrito dinámico.
-- Templates reutilizables.
-- Gestión de cantidades.
-- Búsqueda de productos.
-- Popups.
-- Actualización dinámica de contenido.
-- Comunicación con el backend.
-- Gestión de eventos.
-
-### Funcionalidades principales desarrolladas
-
-#### Gestión del carrito
-
-Permite:
-
-- Añadir productos.
-- Modificar cantidades.
-- Eliminar artículos.
-- Actualizar precios.
-
-#### Sistema de búsqueda
-
-Permite buscar productos dinámicamente mediante palabras clave.
-
-#### Gestión de popups
-
-Utilizados para:
-
-- Detalle de pedidos.
-- Contacto.
-- Confirmaciones.
-
-#### Comunicación con PHP
-
-Se utiliza Fetch API para enviar y recibir datos desde el backend.
-
----
-
-## 6.2.4 PHP
-
-PHP ha sido utilizado para desarrollar toda la lógica backend de la aplicación.
-
-La mayor parte de la comunicación con la base de datos y la gestión de usuarios se realiza mediante archivos PHP.
-
-### Funcionalidades implementadas
-
-- Inicio de sesión.
-- Registro de usuarios.
-- Gestión de sesiones.
-- Consultas SQL.
-- Gestión de productos.
-- Gestión de pedidos.
-- Gestión de stock.
-- Control de acceso.
-
-### Gestión de sesiones
-
-Todos los usuarios funcionan mediante sesiones PHP para mantener la autenticación mientras navegan por la aplicación.
-
-### Seguridad implementada
-
-- Contraseñas cifradas mediante hash.
-- Restricción de acceso.
-- Variables de entorno.
-- Separación frontend/backend.
-
----
-
-## 6.2.5 SQL y MySQL
-
-MySQL ha sido utilizado como sistema gestor de base de datos relacional.
-
-La base de datos diseñada permite gestionar correctamente toda la información necesaria para el funcionamiento de la plataforma.
-
-### Información gestionada
-
-- Productos.
-- Usuarios.
-- Pedidos.
-- Tallas.
-- Proveedores.
-- Stock.
-- Detalles de pedidos.
-
-### Consultas realizadas
-
-- INSERT.
-- SELECT.
-- UPDATE.
-- DELETE.
-
-También se han utilizado relaciones entre tablas mediante claves primarias y claves foráneas.
-
----
-
-# 6.3 Utilidades y recursos externos
-
-Además de las herramientas principales de desarrollo, también se han utilizado diferentes recursos externos que han ayudado a mejorar la calidad visual y funcional del proyecto.
-
----
-
-## 6.3.1 Font Awesome
-
-Font Awesome ha sido utilizado para incorporar iconos dentro de la aplicación.
-
-### Iconos utilizados
-
-- Carrito.
-- Usuario.
-- Búsqueda.
-- Cierre de popups.
-- Gestión de productos.
-
-### Ventajas
-
-- Diseño moderno.
-- Fácil integración.
-- Gran variedad de iconos.
-- Escalabilidad visual.
-
-URL: https://fontawesome.com
-
----
-
-Imagen: Iconos utilizados dentro de FULL MX.
-
----
-
-## 6.3.2 Google Fonts
-
-Google Fonts ha sido utilizado para mejorar la tipografía de la aplicación.
-
-Esto ha permitido conseguir una apariencia más moderna y profesional.
-
-URL: https://fonts.google.com
-
----
-
-## 6.3.3 Recursos gráficos
-
-Durante el desarrollo se han utilizado imágenes relacionadas con el motocross para mejorar la estética visual de la aplicación.
-
-Las imágenes utilizadas corresponden principalmente a:
-
-- Cascos.
-- Botas.
-- Ropa deportiva.
-- Motocross.
-- Fondos decorativos.
-
-Estos recursos han sido utilizados únicamente con fines educativos y de demostración dentro del proyecto.
-
----
-
-## 6.3.4 GitHub
-
-GitHub ha sido utilizado tanto para almacenamiento como para control de versiones.
-
-### Funciones utilizadas
-
-- Repositorio remoto.
-- Gestión de versiones.
-- Backup del proyecto.
-- Compartición de código.
-
-URL: https://github.com
-
----
-# 6.4 Organización de recursos del proyecto
-
-El proyecto ha sido organizado mediante distintas carpetas para separar correctamente cada tipo de recurso.
-
-La estructura utilizada ha sido la siguiente:
+La estructura principal es la siguiente:
 
 ```txt
 /css
@@ -1058,484 +383,75 @@ La estructura utilizada ha sido la siguiente:
 /vistas
 /img
 /logos
-index.html
 ```
 
-## Descripción de carpetas
+La carpeta `css` contiene los estilos visuales, la carpeta `js` contiene la lógica dinámica del frontend, la carpeta `api` contiene los archivos PHP, la carpeta `vistas` contiene las páginas HTML y las carpetas `img` y `logos` almacenan recursos gráficos.
 
-| Carpeta | Función |
-|---|---|
-| css | Archivos de estilos |
-| js | Archivos JavaScript |
-| api | Backend PHP |
-| vistas | Vistas HTML |
-| img | Imágenes productos |
-| logos | Iconografía y logotipos |
-| index.html | Pagina principal |
-
-Esta organización ha permitido mantener una estructura limpia, organizada y fácil de mantener.
-
----
-
-# 6.5 Recursos hardware utilizados
-
-Aunque el proyecto ha sido desarrollado principalmente a nivel software, también se han utilizado distintos recursos hardware.
-
-### Hardware utilizado
-
-- Ordenador personal.
-- Monitor externo.
-- Ratón y teclado.
-- Conexión a internet.
-
-### Características necesarias
-
-- Navegador actualizado.
-- Entorno XAMPP.
-- Sistema operativo compatible.
-
----
-
-# 6.6 Valoración de los recursos utilizados
-
-La combinación de herramientas, tecnologías y recursos utilizados ha permitido desarrollar el proyecto de forma eficiente y organizada.
-
-Gracias a estos recursos ha sido posible:
-
-- Mantener un flujo de trabajo profesional.
-- Organizar correctamente el código.
-- Desarrollar una interfaz moderna.
-- Gestionar correctamente la base de datos.
-- Simular un entorno real de comercio electrónico.
-
-Todos los recursos utilizados han resultado fundamentales para conseguir el resultado final del proyecto FULL MX.
+Esta separación de recursos ayuda a mantener una arquitectura más limpia y profesional.
 
 ---
 
 # 7. Tecnologías de desarrollo
 
-Durante el desarrollo del proyecto FULL MX se han utilizado distintas tecnologías orientadas tanto al desarrollo frontend como backend de aplicaciones web. La combinación de estas tecnologías ha permitido crear una plataforma moderna, dinámica y completamente funcional, simulando el funcionamiento real de una tienda online profesional.
+Las tecnologías utilizadas en FULL MX se han seleccionado teniendo en cuenta su utilidad dentro del desarrollo web y su relación con los contenidos del ciclo formativo. La combinación de HTML, CSS, JavaScript, PHP y MySQL permite construir una aplicación completa, capaz de mostrar información dinámica, procesar datos y almacenarlos en una base de datos relacional.
 
-La elección de cada tecnología ha sido realizada teniendo en cuenta diferentes aspectos como:
-
-- Rendimiento.
-- Facilidad de desarrollo.
-- Compatibilidad.
-- Escalabilidad.
-- Organización del proyecto.
-- Aprendizaje adquirido durante el ciclo formativo.
-
-Además, todas las tecnologías utilizadas forman parte de los contenidos trabajados durante el Ciclo Formativo de Desarrollo de Aplicaciones Web, permitiendo aplicar de forma práctica conocimientos relacionados con programación web, bases de datos, diseño de interfaces y comunicación cliente-servidor.
+La aplicación se basa en una arquitectura cliente-servidor. El cliente, representado por el navegador, muestra la interfaz y ejecuta JavaScript. El servidor, mediante PHP, procesa las solicitudes y accede a la base de datos. Esta estructura permite separar responsabilidades y facilita el mantenimiento del sistema.
 
 ---
 
+## 7.1 Tecnologías frontend
 
-# 7.1 Tecnologías frontend
+El frontend de FULL MX se ha desarrollado con HTML5, CSS3 y JavaScript. Estas tecnologías son fundamentales en cualquier aplicación web, ya que permiten estructurar, diseñar y dinamizar la interfaz.
 
-Las tecnologías frontend son aquellas encargadas de la parte visual e interactiva de la aplicación, es decir, todo aquello con lo que interactúa directamente el usuario desde el navegador.
+HTML define la estructura de las vistas, CSS controla el diseño visual y JavaScript gestiona la interacción. Gracias a esta combinación, la aplicación puede mostrar productos, abrir ventanas emergentes, actualizar el carrito y responder a las acciones del usuario.
 
-Dentro de FULL MX, las tecnologías frontend han tenido un papel fundamental para conseguir una experiencia visual moderna, dinámica y profesional.
-
----
-
-## 7.1.1 HTML5
-
-HTML5 ha sido utilizado como lenguaje principal para estructurar todas las páginas y componentes de la aplicación.
-
-Gracias a HTML se ha podido construir toda la estructura visual del proyecto, incluyendo:
-
-- Página principal.
-- Formularios.
-- Navegación.
-- Templates de productos.
-- Popups.
-- Carrito lateral.
-- Paneles de usuario.
-- Categorías de productos.
-
-### Motivos de utilización
-
-HTML5 ha sido elegido debido a:
-
-- Su facilidad de uso.
-- Compatibilidad con navegadores modernos.
-- Integración sencilla con CSS y JavaScript.
-- Capacidad para crear estructuras semánticas organizadas.
-
-### Ventajas frente a otras alternativas
-
-- Estándar universal del desarrollo web.
-- Gran compatibilidad.
-- Estructura clara y organizada.
-- Facilidad de mantenimiento.
+Uno de los aspectos más importantes del frontend ha sido la generación dinámica de contenido. Los productos se muestran mediante templates creados con JavaScript, lo que evita tener que escribir manualmente cada producto en HTML. Esta solución mejora la mantenibilidad y permite que la información proceda directamente de la base de datos.
 
 ---
 
-
-## 7.1.2 CSS3
-
-CSS3 ha sido utilizado para todo el diseño visual de la aplicación.
-
-Uno de los principales objetivos del proyecto ha sido crear una plataforma moderna y visualmente atractiva, por lo que CSS ha tenido una gran importancia durante el desarrollo.
-
-### Funcionalidades implementadas
-
-Con CSS se han desarrollado:
-
-- Diseños responsive.
-- Efectos hover.
-- Animaciones.
-- Popups.
-- Tarjetas dinámicas.
-- Sombras y transiciones.
-- Distribuciones flexibles mediante Flexbox.
-- Distribuciones complejas mediante Grid Layout.
-
-### Diseño visual
-
-La estética visual del proyecto está basada principalmente en colores relacionados con el mundo del motocross:
-
-| Color | Uso principal |
-|---|---|
-| Rojo | Color corporativo y botones |
-| Blanco | Fondos y contraste |
-| Negro | Detalles visuales y profundidad |
-
-### Responsive Design
-
-Uno de los aspectos más importantes ha sido conseguir una correcta adaptación a diferentes dispositivos:
-
-- Ordenadores.
-- Tablets.
-- Smartphones.
-
-### Motivos de utilización
-
-CSS3 ha sido utilizado debido a:
-
-- Su flexibilidad visual.
-- Compatibilidad con navegadores modernos.
-- Capacidad para crear animaciones.
-- Integración sencilla con HTML.
-
-### Ventajas frente a frameworks externos
-
-Aunque existen frameworks como Bootstrap o Tailwind, se decidió utilizar CSS puro para:
-
-- Tener mayor control del diseño.
-- Personalizar completamente la interfaz.
-- Mejorar el aprendizaje práctico.
-- Evitar dependencia de librerías externas.
+![Logo FULL MX](img/templateProducto.png)
 
 ---
 
+## 7.2 Tecnologías backend
 
-## 7.1.3 JavaScript
+El backend se ha desarrollado con PHP. Este lenguaje se encarga de procesar las peticiones realizadas desde el frontend, validar datos, gestionar sesiones y comunicarse con MySQL.
 
-JavaScript ha sido una de las tecnologías más importantes del proyecto, ya que se ha utilizado para toda la lógica dinámica del frontend.
+PHP se utiliza en archivos situados dentro de la carpeta `api`. Estos archivos actúan como puntos de entrada para diferentes funcionalidades, como login, registro, productos, pedidos, empleados o stock. Cada archivo cumple una función concreta, lo que permite organizar mejor la lógica del servidor.
 
-Gracias a JavaScript la aplicación es capaz de actualizar contenido dinámicamente sin necesidad de recargar constantemente la página.
-
-### Funcionalidades implementadas
-
-#### Sistema de carrito dinámico
-
-Permite:
-
-- Añadir productos.
-- Eliminar artículos.
-- Modificar cantidades.
-- Actualizar precios automáticamente.
-
-#### Sistema de búsqueda
-
-Permite buscar productos dinámicamente mediante palabras clave introducidas por el usuario.
-
-#### Templates dinámicos
-
-Los productos y pedidos se generan automáticamente utilizando plantillas dinámicas creadas mediante JavaScript.
-
-#### Gestión de popups
-
-Se utilizan popups para:
-
-- Contacto.
-- Detalle de pedidos.
-- Confirmaciones.
-- Información adicional.
-
-#### Gestión de eventos
-
-JavaScript controla:
-
-- Clicks.
-- Formularios.
-- Navegación dinámica.
-- Eventos hover.
-- Apertura y cierre de ventanas emergentes.
-
-### Fetch API
-
-Se ha utilizado Fetch API para realizar comunicación entre frontend y backend mediante peticiones asíncronas.
-
-Gracias a ello ha sido posible:
-
-- Obtener productos.
-- Validar usuarios.
-- Consultar pedidos.
-- Actualizar stock.
-- Gestionar carrito.
-
-### Motivos de utilización
-
-JavaScript ha sido elegido debido a:
-
-- Ser el lenguaje estándar del frontend.
-- Permitir interacción dinámica.
-- Integrarse perfectamente con HTML y CSS.
-- Tener compatibilidad total con navegadores modernos.
+El uso de PHP también permite gestionar sesiones mediante `session_start()`. Esto resulta fundamental para mantener autenticado al usuario mientras navega por la aplicación y para controlar qué funcionalidades puede utilizar según su rol.
 
 ---
 
-Imagen: Código JavaScript utilizado para gestionar productos dinámicos.
+## 7.3 Base de datos MySQL
 
-Imagen: Sistema de carrito desarrollado mediante JavaScript.
+MySQL se utiliza como sistema gestor de base de datos relacional. La base de datos almacena toda la información necesaria para que la aplicación funcione correctamente.
 
----
+Entre la información almacenada se encuentran clientes, empleados, productos, proveedores, tallas, pedidos y detalles de pedido. La estructura relacional permite conectar estas entidades y realizar consultas coherentes.
 
-# 7.2 Tecnologías backend
-
-Las tecnologías backend son aquellas encargadas de la lógica interna de la aplicación y de la comunicación con la base de datos.
-
-En FULL MX, el backend se ha desarrollado principalmente utilizando PHP y MySQL.
+El control de stock por tallas es uno de los elementos más importantes de la base de datos. Cada producto puede tener varias tallas asociadas, y cada talla tiene una cantidad disponible. Cuando todas las tallas se quedan sin stock, el producto deja de estar disponible para compra.
 
 ---
 
-## 7.2.1 PHP
+## 7.4 Comunicación cliente-servidor
 
-PHP ha sido utilizado como lenguaje principal del backend.
+La comunicación entre frontend y backend se realiza mediante Fetch API. Esta tecnología permite que JavaScript envíe peticiones HTTP a archivos PHP y reciba respuestas sin recargar completamente la página.
 
-Gracias a PHP ha sido posible desarrollar toda la lógica relacionada con:
+Por ejemplo, cuando el usuario busca productos, consulta pedidos o inicia sesión, JavaScript realiza una petición al servidor. PHP procesa la solicitud, consulta la base de datos si es necesario y devuelve una respuesta normalmente en formato JSON. Después, JavaScript interpreta esa respuesta y actualiza la interfaz.
 
-- Usuarios.
-- Sesiones.
-- Consultas SQL.
-- Gestión de pedidos.
-- Gestión de productos.
-- Validaciones.
-- Control de acceso.
-
-### Funcionalidades implementadas
-
-#### Inicio de sesión
-
-El sistema valida automáticamente:
-
-- Usuario.
-- Contraseña.
-- Tipo de rol.
-
-#### Gestión de sesiones
-
-Todos los usuarios funcionan mediante sesiones PHP, permitiendo mantener la autenticación mientras navegan por la plataforma.
-
-#### Gestión de productos
-
-PHP se encarga de:
-
-- Obtener productos.
-- Actualizar stock.
-- Borrar productos.
-- Gestionar tallas.
-
-#### Gestión de pedidos
-
-Se utilizan consultas SQL para:
-
-- Registrar pedidos.
-- Mostrar pedidos.
-- Mostrar detalles completos.
-
-### Seguridad implementada
-
-La aplicación incorpora distintas medidas de seguridad:
-
-- Contraseñas cifradas mediante hash.
-- Variables de entorno.
-- Restricción de acceso a archivos sensibles.
-- Validación de formularios.
-- Control de sesiones.
-
-### Motivos de utilización
-
-PHP ha sido elegido debido a:
-
-- Su facilidad de integración con HTML.
-- Compatibilidad con Apache y MySQL.
-- Facilidad de aprendizaje.
-- Gran utilización en entornos web.
-
-### Ventajas frente a otras alternativas
-
-Aunque existen tecnologías como Node.js, Django o ASP.NET, se eligió PHP porque:
-
-- Es una tecnología ampliamente utilizada.
-- Forma parte del contenido del ciclo DAW.
-- Permite un desarrollo rápido.
-- Tiene gran compatibilidad con hosting web.
+Este sistema mejora la experiencia de usuario porque hace que la aplicación sea más fluida. También permite separar mejor la lógica del cliente y la lógica del servidor.
 
 ---
 
-![detalle pedido](img/sesion.png)
+![Logo FULL MX](img/fetch.png)
 
 ---
 
-## 7.2.2 MySQL
+## 7.5 Seguridad implementada
 
-MySQL ha sido utilizado como sistema gestor de bases de datos relacional.
+Aunque FULL MX es un proyecto académico, se han aplicado medidas básicas de seguridad. Las contraseñas se almacenan cifradas mediante hash, evitando guardar contraseñas en texto plano. También se utilizan sesiones PHP para mantener la autenticación de usuarios.
 
-La base de datos desarrollada permite almacenar y organizar toda la información necesaria para el funcionamiento de la plataforma.
-
-### Información gestionada
-
-- Usuarios.
-- Productos.
-- Tallas.
-- Pedidos.
-- Proveedores.
-- Stock.
-- Detalles de pedidos.
-
-### Relaciones implementadas
-
-La base de datos utiliza:
-
-- Claves primarias.
-- Claves foráneas.
-- Relaciones entre tablas.
-
-### Consultas SQL utilizadas
-
-| Consulta | Función |
-|---|---|
-| SELECT | Obtener datos |
-| INSERT | Insertar información |
-| UPDATE | Modificar registros |
-| DELETE | Eliminar registros |
-
-### Motivos de utilización
-
-MySQL ha sido elegido debido a:
-
-- Facilidad de integración con PHP.
-- Gran rendimiento.
-- Compatibilidad con XAMPP.
-- Facilidad de aprendizaje.
-- Amplia documentación.
-
-### Ventajas frente a otras alternativas
-
-Se eligió MySQL frente a otros sistemas como PostgreSQL o MongoDB debido a:
-
-- Mayor familiaridad.
-- Integración sencilla con PHP.
-- Adecuación para proyectos relacionales.
-- Facilidad de administración.
-
----
-
-Imagen: Base de datos FULL MX abierta desde phpMyAdmin.
-
-Imagen: Relaciones entre tablas del sistema.
-
----
-
-# 7.3 Tecnologías de comunicación cliente-servidor
-
-La aplicación utiliza un sistema de comunicación entre frontend y backend mediante peticiones asíncronas.
-
----
-
-## 7.3.1 Fetch API
-
-Fetch API ha sido utilizada para comunicar JavaScript con PHP.
-
-Gracias a esta tecnología la aplicación puede:
-
-- Obtener productos dinámicamente.
-- Validar usuarios.
-- Consultar pedidos.
-- Actualizar stock.
-- Gestionar carrito.
-
-### Ventajas
-
-- Comunicación rápida.
-- Actualización dinámica.
-- Mejor experiencia de usuario.
-- Menor necesidad de recargar páginas.
-
-### Motivos de utilización
-
-Se eligió Fetch API frente a AJAX tradicional debido a:
-
-- Sintaxis más moderna.
-- Mayor facilidad de uso.
-- Mejor integración con JavaScript actual.
-
----
-
-![detalle pedido](img/fetch.png)
-
----
-
-# 7.4 Tecnologías relacionadas con diseño responsive
-
-Uno de los objetivos principales del proyecto ha sido conseguir una correcta adaptación a distintos tamaños de pantalla.
-
-Para ello se utilizaron:
-
-- Media Queries.
-- Flexbox.
-- Grid Layout.
-- Unidades relativas.
-
-### Objetivos del responsive design
-
-- Mejorar experiencia móvil.
-- Adaptar contenido automáticamente.
-- Mantener correcta visualización.
-- Facilitar navegación táctil.
-
----
-
-# 7.5 Tecnologías de seguridad
-
-La aplicación incorpora diferentes mecanismos de seguridad para proteger tanto los datos como las sesiones de usuario.
-
-### Medidas implementadas
-
-- Contraseñas hash.
-- Variables .env.
-- Restricción acceso .env.
-- Gestión de sesiones.
-- Validación de formularios.
-- Separación frontend/backend.
-
-### Archivo .env
-
-Se utiliza para almacenar:
-
-```env
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=
-DB_NAME=fullmx
-```
-
-### Archivo .htaccess
-
-Se utiliza para restringir acceso:
+Los datos de conexión a la base de datos se almacenan en un archivo `.env`, separado del código principal. Además, el archivo `.htaccess` impide el acceso directo a `.env`, protegiendo información sensible.
 
 ```apache
 <Files ".env">
@@ -1543,947 +459,226 @@ Se utiliza para restringir acceso:
 </Files>
 ```
 
----
-
-# 7.6 Valoración final de las tecnologías utilizadas
-
-La combinación de tecnologías utilizada en FULL MX ha permitido desarrollar una aplicación moderna, organizada y completamente funcional.
-
-Gracias a estas tecnologías ha sido posible:
-
-- Crear una interfaz dinámica.
-- Gestionar usuarios y pedidos.
-- Implementar comunicación cliente-servidor.
-- Gestionar bases de datos relacionales.
-- Mantener una estructura escalable.
-- Simular un entorno profesional real.
-
-Además, el uso de tecnologías vistas durante el ciclo formativo ha permitido aplicar de forma práctica los conocimientos adquiridos en los diferentes módulos de DAW.
+Estas medidas no convierten la aplicación en un sistema preparado para producción real, pero sí muestran una base adecuada de seguridad para un proyecto académico.
 
 ---
 
+## 7.6 Valoración final de las tecnologías utilizadas
+
+La combinación de tecnologías utilizadas ha permitido desarrollar una aplicación completa y funcional. HTML, CSS y JavaScript permiten crear una interfaz moderna; PHP permite procesar la lógica del servidor; MySQL permite mantener la información persistente; y Fetch API permite conectar ambas partes de forma dinámica.
+
+Esta elección tecnológica resulta adecuada para un proyecto DAW, ya que permite aplicar conocimientos fundamentales y construir una aplicación con estructura profesional.
+
+---
 
 # 8. Diseño del proyecto
 
-El diseño del proyecto FULL MX ha sido uno de los aspectos más importantes durante todo el desarrollo de la aplicación. Desde las primeras fases del proyecto se buscó crear una plataforma moderna, organizada y visualmente atractiva, intentando simular el funcionamiento real de una tienda online profesional relacionada con el mundo del motocross y los deportes offroad.
+El diseño del proyecto FULL MX abarca tanto la parte visual como la organización interna de la aplicación. Desde el inicio se buscó desarrollar una plataforma moderna, clara y coherente con la temática del motocross.
 
-El diseño del proyecto no solo se ha centrado en la parte visual de la aplicación, sino también en la estructura interna del sistema, la organización de la base de datos, la distribución de carpetas y la experiencia general del usuario.
-
-Uno de los principales objetivos ha sido conseguir una correcta integración entre diseño visual, funcionalidad y organización técnica, permitiendo que la plataforma fuese intuitiva para el usuario y fácilmente mantenible a nivel de desarrollo.
+El diseño no se limita a colores o imágenes, sino que también incluye la estructura de la base de datos, la organización de carpetas, la distribución de roles y la manera en que los usuarios interactúan con la aplicación.
 
 ---
 
-# 8.1 Diseño de la base de datos
+## 8.1 Diseño de la base de datos
 
-La base de datos ha sido diseñada siguiendo un modelo relacional, permitiendo organizar correctamente toda la información necesaria para el funcionamiento de la plataforma.
+La base de datos sigue un modelo relacional. Esto permite organizar la información en tablas conectadas mediante claves primarias y foráneas.
 
-El diseño de la base de datos ha sido uno de los puntos más importantes del proyecto, ya que gran parte de las funcionalidades de la aplicación dependen directamente de una correcta organización de los datos.
+Las tablas principales gestionan clientes, empleados, productos, proveedores, tallas, pedidos y detalles de pedidos. Esta estructura permite representar procesos reales de una tienda online, como la relación entre un cliente y sus pedidos o entre un producto y sus tallas disponibles.
 
-La estructura desarrollada permite gestionar:
-
-- Usuarios.
-- Productos.
-- Pedidos.
-- Tallas.
-- Stock.
-- Proveedores.
-- Detalles de pedidos.
-
-Además, se han utilizado claves primarias y claves foráneas para mantener relaciones correctas entre tablas y garantizar la integridad de la información.
+El diseño de la base de datos fue fundamental para permitir funcionalidades como el stock por tallas, la consulta de pedidos y la visualización del detalle de cada compra.
 
 ---
 
-## 8.1.1 Tablas principales de la base de datos
+## 8.2 Modelo relacional
 
-La base de datos se encuentra formada por distintas tablas relacionadas entre sí.
+El modelo relacional permite mantener la integridad de la información y evitar duplicidades innecesarias. Por ejemplo, los productos no se almacenan directamente dentro de cada pedido, sino que se relacionan mediante una tabla de detalle de pedido. Esto permite conservar información organizada y consultar los datos de forma más eficiente.
 
-### Tabla clientes
-
-Esta tabla almacena toda la información relacionada con los usuarios registrados como clientes dentro de la plataforma.
-
-### Información almacenada
-
-- ID del cliente.
-- Nombre.
-- Apellidos.
-- Correo electrónico.
-- Contraseña cifrada.
-- Dirección.
-- Teléfono.
-
-### Función dentro de la aplicación
-
-Permite:
-
-- Registrar usuarios.
-- Gestionar sesiones.
-- Relacionar pedidos con clientes.
+La relación entre productos y tallas permite controlar el stock de manera precisa. Un producto puede tener varias tallas, y cada talla puede tener una cantidad diferente. Esto resulta especialmente importante en una tienda de equipación, donde un mismo producto puede estar disponible en varias medidas.
 
 ---
 
-### Tabla empleados
-
-La tabla empleados almacena la información relacionada con los trabajadores de la plataforma.
-
-### Información almacenada
-
-- ID del empleado.
-- Nombre.
-- Correo electrónico.
-- Contraseña.
-- Cargo.
-
-### Funcionalidades asociadas
-
-Los empleados pueden:
-
-- Actualizar stock.
-- Gestionar productos.
-- Consultar pedidos.
-- Borrar productos.
+![Logo FULL MX](img/modeloER.png)
 
 ---
 
-### Tabla productos
+## 8.3 Diseño de la interfaz de usuario
 
-La tabla productos es una de las más importantes del sistema, ya que almacena toda la información de los productos disponibles en la tienda.
+La interfaz de FULL MX se diseñó buscando una experiencia visual moderna y deportiva. Los colores principales son rojo, blanco y negro, ya que encajan con una estética agresiva y dinámica relacionada con el motocross.
 
-### Información almacenada
+El header permite acceder rápidamente a las categorías, al buscador, al carrito y a la sesión de usuario. Los productos se muestran mediante tarjetas visuales, con imagen, nombre, descripción, precio y tallas disponibles. El carrito lateral permite consultar los productos añadidos sin perder de vista el resto de la página.
 
-- ID del producto.
-- Nombre.
-- Descripción.
-- Precio.
-- Categoría.
-- Imagen.
-- Estado de stock.
-- ID proveedor.
-
-### Funcionalidades relacionadas
-
-Permite:
-
-- Mostrar productos dinámicamente.
-- Gestionar categorías.
-- Gestionar stock.
-- Gestionar carrito.
+También se incorporan popups para mostrar información adicional, como contacto o detalle de pedidos. Estos elementos permiten mostrar contenido sin cambiar completamente de página, mejorando la fluidez de la experiencia.
 
 ---
 
-### Tabla tallas
-
-La tabla tallas permite controlar el stock específico de cada talla de producto.
-
-Este sistema ha sido implementado para simular el funcionamiento real de una tienda online de ropa deportiva y equipación técnica.
-
-### Información almacenada
-
-- ID talla.
-- ID producto.
-- Talla.
-- Cantidad disponible.
-
-### Funcionamiento
-
-Cuando todas las tallas de un producto llegan a 0:
-
-```txt
-stock_producto = 0
-```
-
-Esto provoca que el producto deje de mostrarse como disponible para compra.
+![Logo FULL MX](img/detallePedido.png)
 
 ---
 
-### Tabla pedidos
+## 8.4 Roles de la aplicación
 
-La tabla pedidos almacena la información general de cada compra realizada por los clientes.
+La aplicación distingue entre tres roles principales: cliente, empleado y administrador. Cada rol tiene permisos diferentes, lo que permite organizar el acceso a las funcionalidades.
 
-### Información almacenada
+El cliente puede navegar por productos, gestionar el carrito, realizar pedidos y consultar sus compras. El empleado puede acceder a herramientas de gestión de productos y stock. El administrador dispone de permisos adicionales para gestionar empleados y controlar de forma más completa la plataforma.
 
-- ID pedido.
-- ID cliente.
-- Fecha del pedido.
-- Precio total.
-
-### Funcionalidad
-
-Permite:
-
-- Mostrar historial de pedidos.
-- Relacionar pedidos con clientes.
-- Mostrar detalle completo de compras.
-
----
-### Tabla detalle_pedido
-
-Esta tabla almacena los productos específicos que pertenecen a cada pedido.
-
-### Información almacenada
-
-- ID detalle.
-- ID pedido.
-- ID producto.
-- Cantidad.
-- Precio unidad.
-- Talla seleccionada.
-
-### Función
-
-Permite:
-
-- Mostrar detalle completo del pedido.
-- Calcular precios.
-- Relacionar productos con pedidos.
+Esta división de roles aporta realismo al proyecto, ya que en una tienda online real no todos los usuarios tienen el mismo nivel de acceso.
 
 ---
 
-### Tabla proveedores
-
-La tabla proveedores almacena información relacionada con los proveedores de productos.
-
-### Información almacenada
-
-- ID proveedor.
-- Nombre proveedor.
-- Información contacto.
-
-### Función
-
-Permite relacionar productos con proveedores específicos.
+![Logo FULL MX](img/zonaCliente.png)
 
 ---
 
-Imagen: Tabla proveedores dentro de la base de datos.
+## 8.5 Usuarios creados para pruebas
 
----
+Durante el desarrollo se utilizaron usuarios de prueba para comprobar el funcionamiento de la aplicación. Estos usuarios permiten validar el comportamiento de cada rol y asegurar que las funcionalidades se muestran correctamente según el tipo de sesión iniciada.
 
-# 8.1.2 Relaciones entre tablas
-
-La base de datos utiliza relaciones entre tablas mediante claves primarias y claves foráneas.
-
-### Relaciones principales
-
-| Tabla origen | Relación | Tabla destino |
-|---|---|---|
-| clientes | 1:N | pedidos |
-| pedidos | 1:N | detalle_pedido |
-| productos | 1:N | tallas |
-| proveedores | 1:N | productos |
-
-Estas relaciones permiten mantener una estructura organizada y coherente dentro del sistema.
-
----
-
-Imagen: Relaciones entre tablas representadas gráficamente.
-
----
-
-# 8.1.3 Modelo relacional
-
-El modelo relacional desarrollado permite mantener la integridad de la información y facilitar las consultas SQL utilizadas dentro de la aplicación.
-
-Además, permite futuras ampliaciones del sistema sin necesidad de modificar completamente la estructura de la base de datos.
-
----
-
-![detalle pedido](img/modeloER.png)
-
----
-
-# 8.1.4 Script de carga inicial
-
-El proyecto incluye scripts SQL que permiten:
-
-- Crear tablas.
-- Insertar productos.
-- Insertar usuarios.
-- Insertar proveedores.
-- Insertar tallas.
-
-Ejemplo de creación de tabla:
-
-```sql
-CREATE TABLE productos (
-    id_producto INT PRIMARY KEY AUTO_INCREMENT,
-    nombre_producto VARCHAR(100),
-    descripcion TEXT,
-    precio DECIMAL(10,2)
-);
-```
-
----
-
-# 8.2 Diseño de la interfaz de usuario
-
-Uno de los aspectos más importantes del proyecto ha sido el diseño visual de la interfaz.
-
-La aplicación ha sido diseñada intentando transmitir una estética moderna, agresiva y deportiva relacionada con el mundo del motocross.
-
-Para ello se ha trabajado especialmente en:
-
-- Colores corporativos.
-- Distribución visual.
-- Responsive design.
-- Animaciones.
-- Experiencia de usuario.
-
----
-## 8.2.1 Diseño visual general
-
-La estética principal de la aplicación está basada en colores relacionados con el motocross y el mundo deportivo.
-
-### Paleta de colores utilizada
-
-| Color | Función |
-|---|---|
-| Rojo | Color corporativo principal |
-| Blanco | Contraste y fondos |
-| Negro | Profundidad visual |
-
-### Objetivos visuales
-
-- Crear una estética moderna.
-- Mantener una navegación intuitiva.
-- Mejorar experiencia de usuario.
-- Crear sensación visual deportiva.
-
----
-
-## 8.2.2 Header y navegación
-
-El header es uno de los elementos principales de la interfaz.
-
-Incluye:
-
-- Logo.
-- Navegación entre categorías.
-- Buscador dinámico.
-- Acceso a sesión.
-- Carrito.
-
-### Características
-
-- Diseño fijo.
-- Navegación intuitiva.
-- Responsive.
-- Iconografía moderna.
-
----
-
-## 8.2.3 Templates dinámicos de productos
-
-Los productos se muestran mediante templates generados dinámicamente utilizando JavaScript.
-
-Cada producto muestra:
-
-- Imagen.
-- Nombre.
-- ID producto.
-- Descripción.
-- Precio.
-- Tallas disponibles.
-- Botón añadir carrito.
-
-### Ventajas del sistema
-
-- Reutilización de código.
-- Mayor dinamismo.
-- Facilidad de mantenimiento.
-- Mejor experiencia visual.
-
----
-
-![detalle pedido](img/templateProducto.png)
-
----
-
-## 8.2.4 Sistema de carrito
-
-La aplicación incorpora un carrito lateral dinámico.
-
-### Funcionalidades
-
-- Añadir productos.
-- Modificar cantidades.
-- Eliminar artículos.
-- Mostrar precio total.
-- Confirmar compra.
-
-### Características visuales
-
-- Diseño moderno.
-- Animaciones suaves.
-- Actualización dinámica.
-
----
-
-## 8.2.5 Sistema de popups
-
-La aplicación utiliza popups dinámicos para mostrar información adicional.
-
-### Popups implementados
-
-- Detalle de pedidos.
-- Contacto.
-- Confirmaciones.
-- Información adicional.
-
-### Características
-
-- Apertura dinámica.
-- Cierre mediante botón.
-- Diseño responsive.
-- Animaciones suaves.
-
----
-
-![detalle pedido](img/detallePedido.png)
-
----
-
-## 8.2.6 Responsive Design
-
-Uno de los objetivos principales del diseño fue conseguir una correcta adaptación a distintos dispositivos.
-
-La aplicación funciona correctamente en:
-
-- Ordenadores.
-- Tablets.
-- Smartphones.
-
-### Técnicas utilizadas
-
-- Media Queries.
-- Flexbox.
-- Grid Layout.
-- Unidades relativas.
-
----
-#### vista en movil : 
-
-![movil](img/movil.png)
-
----
-
-# 8.3 Roles de la aplicación
-
-La aplicación incorpora distintos tipos de usuarios con permisos específicos.
-
----
-
-## 8.3.1 Cliente
-
-Los clientes pueden:
-
-- Registrarse.
-- Iniciar sesión.
-- Comprar productos.
-- Gestionar carrito.
-- Consultar pedidos.
-- Ver detalles de pedidos.
-
----
-
-## 8.3.2 Empleado
-
-Los empleados pueden:
-
-- Gestionar productos.
-- Actualizar stock.
-- Borrar productos.
-- Consultar pedidos.
-
----
-
-## 8.3.3 Jefe o administrador
-
-El administrador dispone de control completo sobre la plataforma.
-
-### Funciones disponibles
-
-- Crear empleados.
-- Eliminar empleados.
-- Gestionar productos.
-- Actualizar stock.
-- Borrar productos.
-- Consultar pedidos.
-
----
-
-# 8.4 Usuarios creados para pruebas
-
-Durante el desarrollo se crearon distintos usuarios de prueba para comprobar el correcto funcionamiento de la aplicación.
-
----
-
-## Usuario administrador
+Ejemplos de usuarios de prueba:
 
 ```txt
 admin@jefe.fullmx.es
-```
-
----
-
-## Usuario empleado
-
-```txt
 empleado@fullmx.es
-```
-
----
-
-## Usuario cliente
-
-```txt
 cliente@fullmx.com
 ```
 
+Estos usuarios permiten probar el flujo completo de la aplicación desde diferentes perspectivas.
+
 ---
 
-# 8.5 Arquitectura y organización del proyecto
+## 8.6 Arquitectura general del proyecto
 
-El proyecto ha sido organizado mediante carpetas separadas para mejorar el mantenimiento y la legibilidad del código.
-
-### Estructura utilizada
+La arquitectura general se basa en la separación de responsabilidades. Cada carpeta cumple una función concreta dentro del sistema.
 
 ```txt
-/css
-/js
-/api
-/vistas
-/img
-/logos
+/css      -> estilos visuales
+/js       -> lógica frontend
+/api      -> lógica backend PHP
+/vistas   -> páginas HTML
+/img      -> imágenes de productos y capturas
+/logos    -> logotipos e iconos
 ```
 
-### Función de cada carpeta
-
-| Carpeta | Función |
-|---|---|
-| css | Estilos visuales |
-| js | Lógica frontend |
-| api | Backend PHP |
-| vistas | Páginas HTML |
-| img | Imágenes productos |
-| logos | Logotipos e iconos |
-
-Esta organización permite mantener una arquitectura limpia y fácilmente escalable.
+Esta organización permite mantener el proyecto limpio, facilitar el mantenimiento y mejorar la escalabilidad.
 
 ---
-
-# 8.6 Valoración final del diseño
-
-El diseño desarrollado para FULL MX ha permitido crear una aplicación moderna, visualmente atractiva y completamente funcional.
-
-Gracias a la combinación de diseño visual, organización de código y estructura de base de datos se ha conseguido desarrollar una plataforma sólida y preparada para futuras ampliaciones.
-
-Además, el proyecto ha permitido aplicar de forma práctica conocimientos relacionados con:
-
-- Diseño web.
-- Bases de datos.
-- Responsive design.
-- Experiencia de usuario.
-- Organización de proyectos.
-
-El resultado final es una aplicación web que simula de forma bastante realista el funcionamiento de una tienda online profesional relacionada con el motocross y los deportes extremos.
-
----
-
 
 # 9. Lógica y codificación del proyecto
 
-La lógica y codificación del proyecto FULL MX ha sido desarrollada con el objetivo de construir una aplicación web funcional, organizada y fácilmente mantenible. Durante todo el desarrollo se ha buscado mantener una correcta separación entre frontend y backend, permitiendo que cada parte de la aplicación tenga funciones claramente diferenciadas.
+La lógica de FULL MX se basa en la comunicación entre la interfaz visual, el backend y la base de datos. Cada acción importante del usuario desencadena un proceso interno que puede implicar validaciones, consultas SQL y actualización dinámica de la interfaz.
 
-Uno de los principales objetivos técnicos del proyecto ha sido conseguir una comunicación fluida entre la interfaz visual y la lógica interna del sistema, utilizando tecnologías como JavaScript, PHP y MySQL para crear una aplicación dinámica y cercana al funcionamiento real de una tienda online profesional.
-
-Además de la parte funcional, también se ha trabajado en mantener una arquitectura organizada y escalable, separando correctamente vistas, lógica de programación, estilos y acceso a base de datos.
+El objetivo principal de la codificación ha sido mantener una estructura clara, separando la lógica de cada parte para facilitar su comprensión y mantenimiento.
 
 ---
 
-# 9.1 Arquitectura general de la aplicación
+## 9.1 Arquitectura general de funcionamiento
 
-FULL MX sigue una arquitectura basada en separación de responsabilidades, diferenciando claramente las distintas partes del proyecto.
+La arquitectura del sistema se basa en tres capas principales: frontend, backend y base de datos. El frontend muestra la información y recoge las acciones del usuario. El backend procesa esas acciones, valida datos y consulta la base de datos. MySQL almacena la información persistente.
 
-La estructura principal se divide en:
-
-- Frontend.
-- Backend.
-- Base de datos.
-- Recursos gráficos.
-
-Cada una de estas partes cumple una función concreta dentro del funcionamiento general de la aplicación.
+Este modelo permite que cada parte tenga una responsabilidad clara. JavaScript no accede directamente a la base de datos, sino que se comunica con PHP mediante peticiones. PHP actúa como intermediario y controla el acceso a los datos.
 
 ---
 
-## 9.1.1 Frontend
+## 9.2 Principales procesos del sistema
 
-El frontend corresponde a toda la parte visual e interactiva con la que trabaja directamente el usuario desde el navegador.
+Los procesos principales de FULL MX incluyen inicio de sesión, registro de clientes, gestión de productos, carrito, pedidos y stock.
 
-Dentro de FULL MX el frontend se encarga de:
+En el inicio de sesión, el usuario introduce sus credenciales. El sistema valida los datos y comprueba el rol correspondiente. Dependiendo de si el usuario es cliente, empleado o administrador, se muestra un panel diferente.
 
-- Mostrar productos.
-- Gestionar la navegación.
-- Mostrar formularios.
-- Gestionar el carrito.
-- Mostrar pedidos.
-- Abrir popups dinámicos.
-- Gestionar eventos.
-
-### Tecnologías utilizadas
-
-- HTML5.
-- CSS3.
-- JavaScript.
-
-### Características principales
-
-- Interfaz dinámica.
-- Diseño responsive.
-- Templates reutilizables.
-- Animaciones visuales.
-- Navegación intuitiva.
+En la gestión de productos, la aplicación obtiene datos desde la base de datos y los muestra mediante templates dinámicos. En la gestión de pedidos, el sistema almacena la compra y permite consultar posteriormente los detalles.
 
 ---
 
-## 9.1.2 Backend
+## 9.3 Gestión de usuarios y sesiones
 
-El backend corresponde a toda la lógica interna de la aplicación.
+La gestión de usuarios se realiza mediante sesiones PHP. Cuando un usuario inicia sesión correctamente, el sistema guarda información relevante en la sesión. Esto permite recordar quién está conectado mientras navega por la aplicación.
 
-En FULL MX el backend ha sido desarrollado utilizando PHP y se encarga de:
-
-- Gestionar usuarios.
-- Gestionar sesiones.
-- Validar datos.
-- Gestionar productos.
-- Gestionar stock.
-- Gestionar pedidos.
-- Realizar consultas SQL.
-
-El backend también actúa como intermediario entre la interfaz visual y la base de datos.
-
----
-
-## 9.1.3 Base de datos
-
-La base de datos ha sido desarrollada utilizando MySQL y permite almacenar toda la información relacionada con:
-
-- Usuarios.
-- Productos.
-- Tallas.
-- Pedidos.
-- Proveedores.
-- Stock.
-
-Toda la lógica relacionada con pedidos, productos y usuarios depende directamente de la base de datos.
-
----
-
-# 9.2 Organización interna del proyecto
-
-Uno de los aspectos más importantes durante el desarrollo ha sido mantener una estructura organizada y fácil de mantener.
-
-La aplicación se encuentra organizada mediante distintas carpetas:
-
-```txt
-/css
-/js
-/api
-/vistas
-/img
-/logos
-```
-
----
-
-## 9.2.1 Carpeta CSS
-
-La carpeta CSS contiene todos los archivos relacionados con el diseño visual de la aplicación.
-
-### Funciones principales
-
-- Diseño responsive.
-- Colores y estilos.
-- Animaciones.
-- Templates visuales.
-- Diseño de formularios.
-- Diseño del carrito.
-- Diseño de popups.
-
-Además, el CSS ha sido organizado mediante comentarios explicativos para facilitar su mantenimiento.
-
----
-## 9.2.2 Carpeta JS
-
-La carpeta JS contiene toda la lógica dinámica del frontend.
-
-### Funciones implementadas
-
-- Gestión del carrito.
-- Gestión de productos.
-- Eventos.
-- Popups.
-- Templates dinámicos.
-- Búsqueda de productos.
-- Comunicación con PHP mediante Fetch API.
-
-Todos los archivos JavaScript han sido comentados detalladamente para mejorar su comprensión.
-
----
-
-## 9.2.3 Carpeta API
-
-La carpeta API contiene todos los archivos PHP utilizados como backend de la aplicación.
-
-### Funciones principales
-
-- Login.
-- Registro.
-- Gestión de sesiones.
-- Gestión de productos.
-- Gestión de pedidos.
-- Gestión de stock.
-- Consultas SQL.
-
-Cada archivo PHP cumple una función concreta dentro del sistema.
-
----
-
-## 9.2.4 Carpeta vistas
-
-La carpeta vistas contiene las páginas HTML utilizadas dentro de la aplicación.
-
-### Páginas principales
-
-- Inicio.
-- Login.
-- Registro.
-- Panel cliente.
-- Panel empleado.
-- Panel administrador.
-- Política de privacidad.
-
----
-
-# 9.3 Principales procesos del sistema
-
-La aplicación incorpora distintos procesos internos necesarios para su correcto funcionamiento.
-
----
-
-## 9.3.1 Inicio de sesión
-
-El sistema de login permite identificar automáticamente el tipo de usuario que accede a la plataforma.
-
-### Funcionamiento
-
-1. El usuario introduce email y contraseña.
-2. PHP valida los datos.
-3. Se consulta la base de datos.
-4. Se comprueba el rol del usuario.
-5. Se crea una sesión.
-6. El usuario es redirigido al panel correspondiente.
-
-### Roles disponibles
-
-| Rol | Acceso |
-|---|---|
-| Cliente | Compras y pedidos |
-| Empleado | Gestión productos |
-| Jefe | Administración total |
-
-### Seguridad implementada
-
-- Contraseñas cifradas mediante hash.
-- Validación de formularios.
-- Uso de sesiones PHP.
-
----
-
-## 9.3.2 Gestión del carrito
-
-Uno de los sistemas más importantes del proyecto ha sido el carrito dinámico.
-
-### Funcionalidades implementadas
-
-- Añadir productos.
-- Seleccionar talla.
-- Modificar cantidades.
-- Eliminar productos.
-- Actualizar precios automáticamente.
-
-### Funcionamiento
-
-Toda la lógica del carrito se encuentra desarrollada mediante JavaScript, permitiendo actualizar dinámicamente la interfaz sin necesidad de recargar la página.
-
----
-
-## 9.3.3 Gestión de productos
-
-La aplicación permite mostrar productos dinámicamente obtenidos desde la base de datos.
-
-Cada producto muestra:
-
-- Imagen.
-- Nombre.
-- ID producto.
-- Descripción.
-- Precio.
-- Tallas disponibles.
-
-### Sistema de categorías
-
-Los productos se encuentran organizados en distintas categorías:
-
-- Cascos.
-- Botas.
-- Ropa.
-- Protecciones.
-- Accesorios.
-
-### Templates dinámicos
-
-Los productos se generan automáticamente mediante templates JavaScript reutilizables.
-
----
-
-## 9.3.4 Gestión de stock
-
-La aplicación incorpora un sistema de control de stock por tallas.
-
-### Funcionamiento
-
-Cada producto dispone de distintas tallas almacenadas en la base de datos.
-
-Los empleados y administradores pueden:
-
-- Actualizar cantidades.
-- Modificar stock.
-- Gestionar tallas.
-
-Cuando todas las tallas llegan a 0:
-
-```txt
-stock_producto = 0
-```
-
-Esto provoca que el producto deje de aparecer como disponible para compra.
-
----
-
-## 9.3.5 Gestión de pedidos
-
-El sistema permite registrar y consultar pedidos realizados por los clientes.
-
-### Información almacenada
-
-- Cliente.
-- Productos comprados.
-- Cantidades.
-- Fecha.
-- Precio total.
-
-### Detalle de pedidos
-
-Cada pedido dispone de un popup dinámico que muestra:
-
-- Imagen del producto.
-- Nombre.
-- Cantidad.
-- Precio total.
-- Total general del pedido.
-
----
-
-## 9.3.6 Gestión de empleados
-
-El administrador dispone de herramientas para gestionar trabajadores.
-
-### Funciones disponibles
-
-- Crear empleados.
-- Eliminar empleados.
-- Gestionar permisos.
-
----
-
-# 9.4 Comunicación entre frontend y backend
-
-La comunicación entre cliente y servidor se realiza utilizando JavaScript y PHP mediante Fetch API.
-
-### Funcionamiento general
-
-1. JavaScript realiza una petición.
-2. PHP recibe los datos.
-3. PHP consulta la base de datos.
-4. PHP devuelve respuesta.
-5. JavaScript actualiza la interfaz.
-
-### Ventajas
-
-- Mayor dinamismo.
-- Menor necesidad de recargar páginas.
-- Mejor experiencia de usuario.
-
----
-
-# 9.5 Validación de datos
-
-La aplicación incorpora distintos sistemas de validación para evitar errores y garantizar la integridad de la información.
-
-### Validaciones implementadas
-
-- Emails válidos.
-- Contraseñas.
-- IDs de productos.
-- Campos obligatorios.
-- Stock disponible.
-- Cantidades numéricas.
-
-Las validaciones se realizan tanto en frontend como en backend.
-
----
-
-# 9.6 Sistema de sesiones y control de acceso
-
-La aplicación utiliza sesiones PHP para mantener la autenticación de los usuarios.
-
-### Funcionamiento
-
-Cuando un usuario inicia sesión:
+El uso de sesiones permite controlar permisos y evitar que usuarios sin autorización accedan a funciones internas. Por ejemplo, un cliente no debe poder borrar productos ni administrar empleados.
 
 ```php
 session_start();
 ```
 
-Se almacenan datos relacionados con:
-
-- Usuario.
-- Rol.
-- Permisos.
-
-### Ventajas
-
-- Seguridad.
-- Persistencia de login.
-- Control de acceso.
-
-Cada rol dispone de acceso únicamente a sus funcionalidades correspondientes.
+Este sistema resulta esencial para diferenciar los roles y proteger las partes internas de la aplicación.
 
 ---
 
-# 9.7 Seguridad implementada
+## 9.4 Gestión de productos y stock
 
-La aplicación incorpora distintas medidas de seguridad básicas.
+La gestión de productos está conectada directamente con la base de datos. Los productos se almacenan con información como nombre, descripción, precio, imagen, categoría y proveedor. Además, cada producto puede tener varias tallas con stock independiente.
 
-### Seguridad aplicada
+El sistema de actualización de stock permite modificar la cantidad disponible de cada talla. Si todas las tallas llegan a cero, el producto se marca como no disponible. Esto evita que el cliente compre productos sin stock.
 
-- Contraseñas hash.
-- Variables .env.
-- Restricción acceso .env.
-- Validación de formularios.
-- Control de sesiones.
+Esta funcionalidad aporta realismo al proyecto, ya que en una tienda de equipación es habitual que el stock dependa de la talla.
 
-### Variables de entorno
+---
+
+## 9.5 Gestión del carrito y pedidos
+
+El carrito funciona de forma dinámica mediante JavaScript. Cuando el usuario añade un producto, se guarda la información necesaria, como nombre, precio, talla y cantidad. El usuario puede aumentar o disminuir la cantidad antes de confirmar la compra.
+
+Al confirmar el pedido, la aplicación valida que el usuario haya iniciado sesión como cliente. Después, el pedido se registra en la base de datos y se almacenan los detalles de los productos comprados.
+
+Los pedidos pueden consultarse posteriormente desde el panel del cliente. Además, cada pedido dispone de un detalle que muestra los productos incluidos, cantidades, precios e importe total.
+
+---
+
+## 9.6 Validación de datos
+
+La validación de datos es necesaria para evitar errores y garantizar que la información introducida sea correcta. En FULL MX se realizan validaciones tanto en frontend como en backend.
+
+En frontend se pueden comprobar campos vacíos o formatos básicos antes de enviar información al servidor. En backend se validan los datos antes de realizar operaciones en la base de datos. Esto es importante porque las validaciones del cliente pueden manipularse, mientras que las del servidor ofrecen mayor control.
+
+Se validan especialmente datos como email, contraseña, ID de producto, cantidades, stock y formularios de registro.
+
+---
+
+## 9.7 Organización y documentación del código
+
+Durante el desarrollo se ha intentado mantener un código ordenado y documentado. Los archivos JavaScript y PHP incluyen comentarios explicativos para facilitar su comprensión.
+
+La documentación del código ayuda a entender qué función cumple cada bloque, cómo se comunican los archivos y qué procesos se ejecutan en cada caso. Esto resulta especialmente importante en proyectos con varias funcionalidades conectadas entre sí.
+
+Una buena organización del código facilita futuras modificaciones y permite que otra persona pueda revisar el proyecto con mayor facilidad.
+
+---
+
+# 10. Despliegue web del proyecto
+
+El despliegue de FULL MX se ha realizado en entorno local utilizando XAMPP. Este entorno permite ejecutar Apache y MySQL de forma sencilla, simulando el comportamiento de un servidor web real.
+
+El despliegue local ha permitido probar todas las funcionalidades de la aplicación antes de una posible publicación en un hosting real.
+
+---
+
+## 10.1 Entorno de despliegue utilizado
+
+El entorno utilizado se compone principalmente de Apache, MySQL y phpMyAdmin. Apache se encarga de servir los archivos y ejecutar PHP. MySQL almacena la base de datos y phpMyAdmin permite gestionarla visualmente.
+
+Este entorno es adecuado para proyectos académicos porque permite trabajar de forma local sin necesidad de contratar hosting.
+
+---
+
+## 10.2 Requisitos hardware y software
+
+Para ejecutar el proyecto no se requiere un equipo especialmente potente. Es suficiente con un ordenador capaz de ejecutar XAMPP y un navegador moderno.
+
+Requisitos básicos:
+
+```txt
+Sistema operativo: Windows, Linux o macOS
+Servidor local: XAMPP
+Navegador: Chrome, Edge o Firefox
+Base de datos: MySQL
+Editor recomendado: Visual Studio Code
+```
+
+---
+
+## 10.3 Proceso de despliegue
+
+El proceso de despliegue local consiste en copiar la carpeta del proyecto dentro de `htdocs`, iniciar Apache y MySQL desde XAMPP e importar la base de datos mediante phpMyAdmin.
+
+Después se debe configurar el archivo `.env` con los datos de conexión:
 
 ```env
 DB_HOST=localhost
@@ -2492,7 +687,13 @@ DB_PASS=
 DB_NAME=fullmx
 ```
 
-### Restricción .htaccess
+Una vez configurado, la aplicación puede ejecutarse desde el navegador accediendo a la ruta correspondiente dentro de localhost.
+
+---
+
+## 10.4 Configuración de seguridad
+
+El archivo `.env` contiene información sensible relacionada con la conexión a la base de datos. Por este motivo se utiliza `.htaccess` para bloquear el acceso directo.
 
 ```apache
 <Files ".env">
@@ -2500,714 +701,123 @@ DB_NAME=fullmx
 </Files>
 ```
 
----
-
-# 9.8 Comentarios y documentación del código
-
-Uno de los objetivos del proyecto ha sido mantener un código organizado y fácilmente entendible.
-
-Para ello:
-
-- Se comentaron archivos JavaScript.
-- Se comentaron archivos PHP.
-- Se organizaron funciones.
-- Se separaron responsabilidades.
-
-Los comentarios explican:
-
-- Función de cada archivo.
-- Funcionamiento de procesos.
-- Comunicación entre sistemas.
-- Uso de funciones principales.
+Esta medida evita que un usuario pueda consultar el contenido del archivo desde el navegador.
 
 ---
 
-# 9.9 Valoración final de la lógica implementada
+## 10.5 Posible despliegue futuro en producción
 
-La lógica desarrollada en FULL MX ha permitido crear una aplicación completamente funcional y organizada, capaz de gestionar correctamente productos, usuarios, pedidos y stock.
+Aunque el proyecto se ha desarrollado en local, su estructura permitiría realizar un despliegue futuro en un hosting real. Para ello sería necesario contratar un servidor compatible con PHP y MySQL, subir los archivos del proyecto, importar la base de datos y configurar correctamente las variables de entorno.
 
-Gracias a la combinación de frontend dinámico, backend funcional y base de datos relacional se ha conseguido desarrollar una plataforma moderna y cercana al funcionamiento real de una tienda online profesional.
-
-Además, el proyecto ha permitido aplicar conocimientos reales relacionados con:
-
-- Arquitectura web.
-- Programación frontend.
-- Programación backend.
-- Bases de datos.
-- Comunicación cliente-servidor.
-- Seguridad web.
-- Organización de proyectos.
-
-El resultado final es una aplicación sólida, escalable y preparada para futuras ampliaciones.
-
----
-
-# 10. Despliegue Web del proyecto
-
-El despliegue web del proyecto FULL MX ha sido una parte fundamental dentro del desarrollo de la aplicación, ya que ha permitido simular el funcionamiento real de una plataforma web profesional ejecutándose sobre un servidor local.
-
-Durante esta fase se han trabajado aspectos relacionados con:
-
-- Configuración del servidor.
-- Organización del proyecto.
-- Gestión de la base de datos.
-- Seguridad básica.
-- Variables de entorno.
-- Comunicación entre cliente y servidor.
-- Estructura de despliegue.
-
-El objetivo principal ha sido conseguir que la aplicación pudiese ejecutarse correctamente en un entorno local simulando el comportamiento real de un servidor web utilizado en aplicaciones de comercio electrónico.
-
----
-
-# 10.1 Entorno de despliegue utilizado
-
-Para el despliegue y ejecución del proyecto se ha utilizado un entorno local basado en XAMPP.
-
-XAMPP ha permitido ejecutar simultáneamente:
-
-- Servidor Apache.
-- Base de datos MySQL.
-- phpMyAdmin.
-
-Gracias a este entorno ha sido posible desarrollar y probar la aplicación en condiciones muy similares a las de un entorno real de producción.
-
----
-
-## 10.1.1 Apache
-
-Apache ha sido utilizado como servidor web principal de la aplicación.
-
-### Funciones realizadas
-
-- Servir archivos HTML.
-- Ejecutar archivos PHP.
-- Gestionar peticiones HTTP.
-- Comunicar frontend y backend.
-
-### Ventajas de utilización
-
-- Gran compatibilidad con PHP.
-- Facilidad de configuración.
-- Amplia documentación.
-- Integración sencilla con XAMPP.
-
-Apache ha permitido ejecutar correctamente toda la lógica backend desarrollada mediante PHP.
-
----
-
-## 10.1.2 MySQL
-
-MySQL ha sido utilizado como sistema gestor de bases de datos relacional.
-
-Toda la información de la aplicación se almacena dentro de la base de datos FULL MX.
-
-### Información gestionada
-
-- Usuarios.
-- Productos.
-- Pedidos.
-- Tallas.
-- Stock.
-- Proveedores.
-
-### Funcionalidades principales
-
-- Almacenamiento persistente.
-- Consultas SQL.
-- Relaciones entre tablas.
-- Gestión de stock.
-
----
-
-# 10.2 Requisitos hardware y software
-
-Para ejecutar correctamente la aplicación se requieren unos recursos mínimos tanto a nivel hardware como software.
-
----
-
-## 10.2.1 Requisitos hardware
-
-La aplicación no requiere un hardware especialmente potente debido a que se trata de una plataforma web ligera.
-
-### Requisitos mínimos
-
-| Componente | Requisito |
-|---|---|
-| Procesador | Doble núcleo |
-| Memoria RAM | 4 GB |
-| Almacenamiento | 2 GB libres |
-| Pantalla | Resolución mínima HD |
-
-### Requisitos recomendados
-
-| Componente | Recomendado |
-|---|---|
-| Procesador | Intel i5 o equivalente |
-| Memoria RAM | 8 GB |
-| Almacenamiento | SSD |
-| Resolución | Full HD |
-
----
-
-## 10.2.2 Requisitos software
-
-Para ejecutar el proyecto correctamente es necesario disponer de:
-
-- Sistema operativo compatible.
-- Navegador actualizado.
-- XAMPP.
-- phpMyAdmin.
-- MySQL.
-
-### Sistemas operativos compatibles
-
-- Windows.
-- Linux.
-- macOS.
-
-### Navegadores compatibles
-
-- Google Chrome.
-- Microsoft Edge.
-- Mozilla Firefox.
-
----
-
-# 10.3 Estructura de despliegue del proyecto
-
-La aplicación ha sido organizada siguiendo una estructura basada en carpetas separadas según su función.
-
-La estructura utilizada es la siguiente:
-
-```txt
-/css
-/js
-/api
-/vistas
-/img
-/logos
-```
-
-### Descripción de carpetas
-
-| Carpeta | Función |
-|---|---|
-| css | Archivos de estilos |
-| js | Lógica JavaScript |
-| api | Backend PHP |
-| vistas | Páginas HTML |
-| img | Imágenes productos |
-| logos | Iconos y logotipos |
-
-Esta organización facilita:
-
-- Mantenimiento.
-- Escalabilidad.
-- Legibilidad.
-- Organización del código.
-
----
-
-# 10.4 Proceso de despliegue
-
-El despliegue del proyecto se realiza de forma local utilizando XAMPP.
-
----
-
-## 10.4.1 Instalación del entorno
-
-### Paso 1 - Instalación de XAMPP
-
-Primero se instala XAMPP desde su página oficial:
-
-```txt
-https://www.apachefriends.org
-```
-
-Una vez instalado se activan:
-
-- Apache.
-- MySQL.
-
----
-
-## 10.4.2 Copia del proyecto
-
-El proyecto FULL MX debe copiarse dentro de la carpeta:
-
-```txt
-htdocs
-```
-
-Ruta habitual:
-
-```txt
-C:/xampp/htdocs/fullmx
-```
-
-Esto permite que Apache pueda ejecutar correctamente la aplicación.
-
----
-
-## 10.4.3 Importación de la base de datos
-
-La base de datos se importa utilizando phpMyAdmin.
-
-### Pasos realizados
-
-1. Crear base de datos llamada:
-
-```sql
-fullmx
-```
-
-2. Importar archivo SQL del proyecto.
-
-3. Verificar tablas correctamente creadas.
-
----
-
-## 10.4.4 Configuración del archivo .env
-
-La aplicación utiliza variables de entorno para almacenar datos sensibles relacionados con la conexión a la base de datos.
-
-### Archivo utilizado
-
-```env
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=
-DB_NAME=fullmx
-```
-
-### Ventajas de utilización
-
-- Mayor seguridad.
-- Separación de configuración.
-- Mejor mantenimiento.
-
----
-
-## 10.4.5 Configuración del archivo .htaccess
-
-El proyecto utiliza un archivo `.htaccess` para restringir el acceso directo a archivos sensibles.
-
-### Configuración utilizada
-
-```apache
-<Files ".env">
-    Require all denied
-</Files>
-```
-
-### Objetivo
-
-Evitar que usuarios externos puedan acceder directamente a información sensible de configuración.
-
----
-
-# 10.5 Comunicación cliente-servidor
-
-La comunicación entre frontend y backend se realiza mediante peticiones dinámicas utilizando JavaScript y PHP.
-
-### Flujo general
-
-1. El usuario interactúa con la interfaz.
-2. JavaScript envía petición mediante Fetch API.
-3. PHP recibe los datos.
-4. PHP consulta MySQL.
-5. PHP devuelve respuesta.
-6. JavaScript actualiza la interfaz.
-
-### Ventajas
-
-- Mayor dinamismo.
-- Menos recargas de página.
-- Mejor experiencia de usuario.
-
----
-
-# 10.6 Seguridad implementada en el despliegue
-
-Aunque se trata de un entorno local de desarrollo, se han implementado distintas medidas básicas de seguridad.
-
----
-
-## 10.6.1 Contraseñas cifradas
-
-Las contraseñas almacenadas en la base de datos se encuentran cifradas mediante hash.
-
-### Ventajas
-
-- Mayor protección de usuarios.
-- Seguridad básica autenticación.
-
----
-## 10.6.2 Gestión de sesiones
-
-La aplicación utiliza sesiones PHP para mantener autenticados a los usuarios.
-
-### Funciones principales
-
-- Mantener login activo.
-- Controlar permisos.
-- Gestionar roles.
-
----
-
-## 10.6.3 Restricción de archivos sensibles
-
-El archivo `.env` se encuentra protegido mediante `.htaccess`.
-
-Esto evita accesos no autorizados a:
-
-- Usuario base datos.
-- Contraseña.
-- Configuración interna.
-
----
-
-# 10.7 Posible despliegue futuro en producción
-
-Aunque el proyecto ha sido desarrollado en entorno local, la estructura utilizada permitiría realizar un despliegue futuro en un entorno de producción real.
-
-### Posibles opciones de hosting
-
-- Hostinger.
-- OVH.
-- AWS.
-- IONOS.
-- Raiola Networks.
-
-### Posibles mejoras futuras
-
-- Dominio propio.
-- Certificado SSL.
-- Hosting profesional.
-- Base de datos remota.
-- Sistema de pagos real.
-
----
-
-# 10.8 Valoración final del despliegue
-
-El despliegue realizado para FULL MX ha permitido simular correctamente el funcionamiento real de una aplicación web profesional.
-
-Gracias a la utilización de Apache, PHP y MySQL ha sido posible desarrollar una plataforma completamente funcional capaz de:
-
-- Gestionar usuarios.
-- Gestionar productos.
-- Gestionar stock.
-- Gestionar pedidos.
-- Ejecutar lógica backend.
-- Comunicar frontend y backend.
-
-Además, la organización utilizada facilita futuras ampliaciones y posibles despliegues en entornos reales de producción.
-
-El proceso de despliegue también ha permitido aplicar conocimientos relacionados con:
-
-- Configuración de servidores.
-- Gestión de bases de datos.
-- Seguridad web.
-- Organización de proyectos.
-- Arquitectura cliente-servidor.
-
-El resultado final es una aplicación sólida, organizada y preparada para seguir creciendo en futuras versiones.
+En una versión de producción también sería recomendable añadir certificado SSL, mejorar validaciones, reforzar seguridad y configurar copias de seguridad automáticas.
 
 ---
 
 # 11. Manual de usuario
 
-El manual de usuario de FULL MX se encuentra desarrollado en un documento independiente con el objetivo de facilitar su organización y mejorar la estructura general de la documentación del proyecto.
-
-En dicho manual se explica detalladamente el funcionamiento de la aplicación desde el punto de vista de cada tipo de usuario, incluyendo capturas, ejemplos y explicaciones paso a paso de las funcionalidades principales del sistema.
-
-Además, el documento se encuentra dividido por roles para facilitar la comprensión de cada apartado según el tipo de usuario.
-
----
-
-## Acceso al manual de usuario
+El manual de usuario se encuentra desarrollado en un documento independiente para facilitar su consulta y mantener separada la documentación técnica de la guía de uso de la aplicación.
 
 [Acceder al Manual de Usuario de FULL MX](manualUsuario.md)
 
+---
+
 # 12. Conclusiones y aspectos a mejorar
 
-El desarrollo del proyecto FULL MX ha supuesto una experiencia muy completa tanto a nivel académico como personal, permitiendo aplicar de forma práctica gran parte de los conocimientos adquiridos durante el Ciclo Formativo de Desarrollo de Aplicaciones Web.
+El desarrollo de FULL MX ha supuesto una experiencia muy completa tanto a nivel técnico como personal. El proyecto ha permitido aplicar conocimientos de diferentes áreas del desarrollo web y reunirlos dentro de una única aplicación funcional.
 
-A lo largo de todo el proyecto se han trabajado aspectos relacionados con programación frontend, backend, bases de datos, diseño visual, organización de código, experiencia de usuario y despliegue de aplicaciones web. Gracias a ello, FULL MX no solo ha servido como práctica académica, sino también como una aproximación bastante realista al desarrollo de una aplicación web profesional.
-
-Uno de los principales objetivos del proyecto era desarrollar una plataforma moderna, funcional y visualmente atractiva capaz de simular el comportamiento real de una tienda online especializada en productos de motocross. Tras finalizar el desarrollo, se puede considerar que dicho objetivo ha sido alcanzado satisfactoriamente, obteniendo como resultado una aplicación completamente funcional y preparada para futuras ampliaciones.
+Durante el desarrollo se han trabajado aspectos relacionados con frontend, backend, bases de datos, seguridad, diseño responsive, despliegue local y experiencia de usuario. Todo ello ha permitido comprender mejor cómo se estructura una aplicación web real.
 
 ---
 
+## 12.1 Valoración general del proyecto
 
-# 12.1 Valoración general del proyecto
+La valoración general del proyecto es positiva, ya que se ha conseguido desarrollar una aplicación funcional con diferentes roles, gestión de productos, carrito dinámico, pedidos y control de stock.
 
-FULL MX ha permitido integrar múltiples tecnologías y conceptos trabajados durante el ciclo formativo dentro de un único proyecto completo y organizado.
-
-Durante el desarrollo se han aplicado conocimientos relacionados con:
-
-- HTML5.
-- CSS3.
-- JavaScript.
-- PHP.
-- MySQL.
-- Diseño responsive.
-- Gestión de sesiones.
-- Arquitectura cliente-servidor.
-- Comunicación frontend-backend.
-- Seguridad web básica.
-
-La integración de todas estas tecnologías ha permitido construir una aplicación dinámica y visualmente moderna, manteniendo una estructura organizada y fácilmente mantenible.
-
-Además, uno de los aspectos más importantes del proyecto ha sido conseguir una correcta separación entre frontend y backend, facilitando la organización interna de la aplicación y permitiendo que futuras modificaciones puedan realizarse de forma más sencilla.
+FULL MX representa una aproximación bastante completa a una tienda online real y demuestra la capacidad para integrar diferentes tecnologías dentro de un mismo sistema.
 
 ---
 
+## 12.2 Dificultades encontradas
 
-# 12.2 Objetivos alcanzados
+Una de las principales dificultades fue organizar correctamente el proyecto a medida que aumentaba el número de funcionalidades. Al incorporar carrito, pedidos, usuarios, stock y paneles de administración, fue necesario mantener una estructura clara para evitar duplicidades.
 
-A lo largo del desarrollo se han conseguido cumplir la mayoría de objetivos planteados inicialmente.
+Otra dificultad importante fue la comunicación entre JavaScript y PHP mediante Fetch API, especialmente al trabajar con respuestas JSON y actualizaciones dinámicas de la interfaz.
 
-Entre los principales objetivos alcanzados destacan:
-
-- Desarrollo de una tienda online completamente funcional.
-- Creación de un sistema de login por roles.
-- Gestión dinámica de productos.
-- Gestión de stock por tallas.
-- Implementación de carrito dinámico.
-- Gestión de pedidos.
-- Creación de popups dinámicos.
-- Diseño responsive.
-- Comunicación entre frontend y backend.
-- Gestión de sesiones mediante PHP.
-- Diseño de base de datos relacional.
-
-Además, también se consiguió desarrollar una interfaz moderna inspirada en plataformas reales relacionadas con el motocross y el comercio electrónico deportivo.
+También resultó importante diseñar correctamente la base de datos para que el sistema de stock por tallas funcionara de forma coherente.
 
 ---
 
+## 12.3 Aprendizajes obtenidos
 
-# 12.3 Principales dificultades encontradas
+El proyecto permitió reforzar conocimientos de programación web y adquirir experiencia práctica en la integración de distintas tecnologías.
 
-Durante el desarrollo del proyecto aparecieron diferentes dificultades técnicas y organizativas que tuvieron que ser solucionadas progresivamente.
+Entre los principales aprendizajes destacan:
 
-Uno de los principales retos fue mantener una correcta organización del proyecto a medida que se iban añadiendo nuevas funcionalidades. Al tratarse de una aplicación relativamente grande, fue necesario separar correctamente archivos y responsabilidades para evitar un código desordenado o difícil de mantener.
+```txt
+Organización de proyectos
+Comunicación cliente-servidor
+Gestión de sesiones
+Consultas SQL
+Diseño responsive
+Validación de formularios
+Mantenimiento de código
+```
 
-Entre las principales dificultades encontradas destacan:
-
-- Organización del código frontend y backend.
-- Gestión dinámica del carrito.
-- Control de stock por tallas.
-- Comunicación entre JavaScript y PHP.
-- Gestión de sesiones.
-- Diseño responsive.
-- Actualización dinámica de contenido.
-- Gestión de popups dinámicos.
-- Relaciones entre tablas de la base de datos.
-
-También resultó especialmente importante mantener una correcta comunicación entre frontend y backend utilizando Fetch API y consultas PHP, ya que gran parte de la aplicación funciona dinámicamente sin necesidad de recargar constantemente la página.
+Además, el proyecto ha permitido mejorar la capacidad de resolver problemas y adaptar soluciones durante el desarrollo.
 
 ---
 
+## 12.4 Aspectos a mejorar
 
-# 12.4 Aprendizajes obtenidos
+Aunque FULL MX es funcional, podría ampliarse con nuevas funcionalidades en futuras versiones.
 
-El desarrollo de FULL MX ha permitido adquirir una experiencia práctica muy completa relacionada con el desarrollo web profesional.
+Algunas mejoras posibles son:
 
-Gracias al proyecto se han reforzado conocimientos relacionados con:
+- Pasarela de pago real.
+- Facturación automática.
+- Panel avanzado de estadísticas.
+- Sistema de valoraciones.
+- Gestión avanzada de envíos.
+- Notificaciones por correo.
+- API REST completa.
+- Sistema de favoritos.
 
-- Programación JavaScript.
-- Manipulación del DOM.
-- Comunicación cliente-servidor.
-- Programación PHP.
-- Consultas SQL.
-- Diseño de bases de datos.
-- Responsive Design.
-- Organización de proyectos.
-- Seguridad web básica.
-
-Además, el proyecto ha permitido comprender mucho mejor cómo se desarrolla realmente una aplicación web moderna, integrando múltiples tecnologías dentro de una misma plataforma.
-
-También ha servido para mejorar aspectos relacionados con:
-
-- Resolución de problemas.
-- Organización del trabajo.
-- Planificación.
-- Estructuración de código.
-- Capacidad de adaptación.
+Estas mejoras permitirían acercar todavía más la aplicación al funcionamiento real de una tienda online profesional.
 
 ---
 
+## 12.5 Valoración final
 
-# 12.5 Experiencia personal
+FULL MX ha permitido desarrollar una aplicación web completa, organizada y visualmente atractiva. El proyecto integra diferentes tecnologías y demuestra conocimientos tanto de frontend como de backend.
 
-A nivel personal, el proyecto ha supuesto una experiencia muy positiva y motivadora. La temática elegida relacionada con el motocross y los deportes offroad ha permitido trabajar con mayor interés y dedicar especial atención tanto al diseño visual como a la experiencia de usuario.
-
-El hecho de desarrollar una aplicación inspirada en plataformas reales ha ayudado a comprender mejor cómo funcionan internamente muchas tiendas online actuales y qué elementos son importantes dentro de una aplicación comercial moderna.
-
-Además, trabajar sobre un proyecto de este tamaño ha permitido ganar confianza en el desarrollo web y mejorar notablemente la capacidad de organizar aplicaciones complejas.
-
----
-
-
-# 12.6 Aspectos a mejorar y futuras ampliaciones
-
-Aunque el proyecto desarrollado es completamente funcional, existen múltiples mejoras y ampliaciones que podrían implementarse en futuras versiones.
-
-Entre las posibles mejoras futuras destacan:
-
----
-
-## 12.6.1 Pasarela de pago real
-
-Actualmente el proyecto simula la compra de productos, pero no incorpora una pasarela de pago real.
-
-En futuras versiones podrían integrarse sistemas como:
-
-- PayPal.
-- Stripe.
-- Bizum.
-- Tarjetas bancarias.
-
----
-
-## 12.6.2 Panel de administración avanzado
-
-Aunque el sistema ya incorpora herramientas de administración, podrían añadirse nuevas funcionalidades:
-
-- Estadísticas de ventas.
-- Gestión avanzada de usuarios.
-- Gestión automática de stock.
-- Panel gráfico de pedidos.
-
----
-
-## 12.6.3 Sistema de valoraciones
-
-Otra mejora interesante sería implementar un sistema de opiniones y valoraciones para productos.
-
-Esto permitiría:
-
-- Mejorar interacción usuarios.
-- Mostrar valoraciones.
-- Aumentar realismo de la tienda.
-
----
-
-## 12.6.4 Sistema de favoritos
-
-Se podría implementar un sistema para guardar productos favoritos dentro de la cuenta del usuario.
-
----
-
-## 12.6.5 API REST completa
-
-Actualmente la comunicación se realiza mediante PHP y Fetch API, pero en futuras versiones podría desarrollarse una API REST completa para separar totalmente frontend y backend.
-
----
-
-## 12.6.6 Hosting y despliegue real
-
-El proyecto podría desplegarse en un entorno real incorporando:
-
-- Dominio propio.
-- Hosting profesional.
-- Certificado SSL.
-- Base de datos remota.
-
----
-
-
-# 12.7 Valoración final del proyecto
-
-FULL MX ha permitido desarrollar una aplicación web moderna, organizada y funcional capaz de integrar gran parte de los conocimientos adquiridos durante el ciclo formativo.
-
-Gracias a este proyecto ha sido posible trabajar en un entorno muy cercano al desarrollo profesional real, enfrentándose a problemas técnicos relacionados con:
-
-- Arquitectura web.
-- Bases de datos.
-- Comunicación cliente-servidor.
-- Seguridad.
-- Diseño visual.
-- Experiencia de usuario.
-
-Además, el proyecto ha servido para mejorar tanto las habilidades técnicas como la capacidad de organización y resolución de problemas.
-
-El resultado final es una plataforma sólida, escalable y visualmente atractiva que podría seguir evolucionando en futuras versiones incorporando nuevas funcionalidades propias de una tienda online profesional.
+Además, la temática elegida ha permitido trabajar con motivación y desarrollar una plataforma con identidad visual propia. El resultado final es una aplicación funcional, escalable y preparada para futuras ampliaciones.
 
 ---
 
 # 13. Bibliografía
 
-Durante el desarrollo del proyecto FULL MX se han utilizado diferentes recursos técnicos, plataformas de aprendizaje y documentación oficial para resolver dudas, mejorar el diseño visual y desarrollar correctamente las distintas funcionalidades de la aplicación.
+Durante el desarrollo del proyecto se han utilizado diferentes recursos técnicos, documentación oficial y plataformas de aprendizaje.
 
-Las principales tecnologías utilizadas han sido HTML5, CSS3, JavaScript, PHP y MySQL, apoyándose principalmente en documentación oficial y plataformas de aprendizaje relacionadas con el desarrollo web moderno.
-
-También se consultaron distintas páginas especializadas en diseño web y experiencia de usuario con el objetivo de conseguir una interfaz moderna, dinámica y visualmente atractiva.
-
----
-
-## Recursos utilizados
-
-### Documentación oficial
+Recursos utilizados:
 
 ```txt
 https://developer.mozilla.org
-https://www.php.net/manual/es/
-https://dev.mysql.com/doc/
-```
-
----
-
-### Plataformas de aprendizaje
-
-```txt
 https://www.w3schools.com
-https://stackoverflow.com
-```
-
----
-
-### Recursos visuales y diseño
-
-```txt
+https://www.php.net
+https://dev.mysql.com/doc/
 https://fontawesome.com
 https://fonts.google.com
-https://dribbble.com
-https://www.behance.net
+https://github.com
+https://www.apachefriends.org
 ```
 
----
-
-### Plataformas tomadas como referencia
-
-```txt
-https://www.24mx.es
-https://www.motocard.com
-https://www.greenlandmx.com
-```
+También se han consultado plataformas reales de venta online relacionadas con motocross y equipación deportiva para tomar referencias visuales y funcionales.
 
 ---
 
-### Herramientas utilizadas
+# 14. Anexos
 
-```txt
-Visual Studio Code
-XAMPP
-phpMyAdmin
-GitHub
-```
-
-
----
-
-# ANEXOS
-
----
-
-# ANEXO I — Estructura general del proyecto
+## 14.1 Anexo I — Estructura del proyecto
 
 ```txt
 FULLMX/
@@ -3218,13 +828,12 @@ FULLMX/
 ├── vistas/
 ├── img/
 ├── logos/
+├── index.html
 ├── .env
 ├── .htaccess
-└── index.html
+└── fullmx.sql
 ```
 
----
-
-Imagen: Organización general de carpetas del proyecto.
+Esta estructura permite separar correctamente estilos, lógica frontend, backend, vistas y recursos gráficos.
 
 ---
