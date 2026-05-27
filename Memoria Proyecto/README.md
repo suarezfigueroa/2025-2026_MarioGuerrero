@@ -17,7 +17,7 @@ Mario Guerrero Salinero
 ##### Tutor del proyecto :
 Jose Andrés Paredes Arribas
 ##### Fecha de presentación  
-Junio 2026
+27 de mayo de 2026
 ##### Repositorio GitHub :  
 https://github.com/suarezfigueroa/2025-2026_MarioGuerrero/tree/main/FullMX
 
